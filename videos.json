@@ -1,1204 +1,2494 @@
 {
   "videos": [
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/0f62bfa4-7cc9-4c1b-a21e-66a8f42b8cfa?index=0",
       "videoName": "0f62bfa4-7cc9-4c1b-a21e-66a8f42b8cfa",
       "videoUrl": "https://cdn.midjourney.com/video/0f62bfa4-7cc9-4c1b-a21e-66a8f42b8cfa/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/3497a42a-86fc-4057-b903-a555809082e5?index=0",
       "videoName": "3497a42a-86fc-4057-b903-a555809082e5",
       "videoUrl": "https://cdn.midjourney.com/video/3497a42a-86fc-4057-b903-a555809082e5/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/3cf9e9dc-b912-4ed2-8ad4-34b257b1446c?index=0",
       "videoName": "3cf9e9dc-b912-4ed2-8ad4-34b257b1446c",
       "videoUrl": "https://cdn.midjourney.com/video/3cf9e9dc-b912-4ed2-8ad4-34b257b1446c/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/4e6aae7f-1a2f-4ac8-83ad-e4042a752a08?index=0",
       "videoName": "4e6aae7f-1a2f-4ac8-83ad-e4042a752a08",
       "videoUrl": "https://cdn.midjourney.com/video/4e6aae7f-1a2f-4ac8-83ad-e4042a752a08/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/7ac0c640-41b2-4e77-8a30-9f2cfc36ef51?index=0",
       "videoName": "7ac0c640-41b2-4e77-8a30-9f2cfc36ef51",
       "videoUrl": "https://cdn.midjourney.com/video/7ac0c640-41b2-4e77-8a30-9f2cfc36ef51/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/10e8c8f2-2ea9-4b49-9d81-53a765d4f3f4?index=0",
       "videoName": "10e8c8f2-2ea9-4b49-9d81-53a765d4f3f4",
       "videoUrl": "https://cdn.midjourney.com/video/10e8c8f2-2ea9-4b49-9d81-53a765d4f3f4/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/f6192cac-33ec-4599-9781-9e48cbd52760?index=0",
       "videoName": "f6192cac-33ec-4599-9781-9e48cbd52760",
       "videoUrl": "https://cdn.midjourney.com/video/f6192cac-33ec-4599-9781-9e48cbd52760/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/a2b26a7d-49a3-433f-9a22-740a8faa848d?index=0",
       "videoName": "a2b26a7d-49a3-433f-9a22-740a8faa848d",
       "videoUrl": "https://cdn.midjourney.com/video/a2b26a7d-49a3-433f-9a22-740a8faa848d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/5f4ab394-b064-4cc5-8850-fd21e1e14195?index=0",
       "videoName": "5f4ab394-b064-4cc5-8850-fd21e1e14195",
       "videoUrl": "https://cdn.midjourney.com/video/5f4ab394-b064-4cc5-8850-fd21e1e14195/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/377ed2fe-0d17-43a0-aa26-8e7ccabbccdc?index=0",
       "videoName": "377ed2fe-0d17-43a0-aa26-8e7ccabbccdc",
       "videoUrl": "https://cdn.midjourney.com/video/377ed2fe-0d17-43a0-aa26-8e7ccabbccdc/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/48a5ea87-9ef2-4926-96c8-a06c5bc12575?index=0",
       "videoName": "48a5ea87-9ef2-4926-96c8-a06c5bc12575",
       "videoUrl": "https://cdn.midjourney.com/video/48a5ea87-9ef2-4926-96c8-a06c5bc12575/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/a7eba519-085a-4f67-b3d8-e51ab9229010?index=0",
       "videoName": "a7eba519-085a-4f67-b3d8-e51ab9229010",
       "videoUrl": "https://cdn.midjourney.com/video/a7eba519-085a-4f67-b3d8-e51ab9229010/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/86113351-96e4-479b-88ce-0665a0698a5c?index=0",
       "videoName": "86113351-96e4-479b-88ce-0665a0698a5c",
       "videoUrl": "https://cdn.midjourney.com/video/86113351-96e4-479b-88ce-0665a0698a5c/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/69680deb-15ca-407a-a7a2-00e6fe74f551?index=0",
       "videoName": "69680deb-15ca-407a-a7a2-00e6fe74f551",
       "videoUrl": "https://cdn.midjourney.com/video/69680deb-15ca-407a-a7a2-00e6fe74f551/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/3817deb3-a72a-4ab9-98e9-59704c5939d0?index=0",
       "videoName": "3817deb3-a72a-4ab9-98e9-59704c5939d0",
       "videoUrl": "https://cdn.midjourney.com/video/3817deb3-a72a-4ab9-98e9-59704c5939d0/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/ed49317f-7f01-411d-9bfa-83a19830f91f?index=0",
       "videoName": "ed49317f-7f01-411d-9bfa-83a19830f91f",
       "videoUrl": "https://cdn.midjourney.com/video/ed49317f-7f01-411d-9bfa-83a19830f91f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/3d73ca54-027e-4ecc-a9d9-2291e21baf72?index=0",
       "videoName": "3d73ca54-027e-4ecc-a9d9-2291e21baf72",
       "videoUrl": "https://cdn.midjourney.com/video/3d73ca54-027e-4ecc-a9d9-2291e21baf72/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/90f5783d-9b9c-4d84-8d18-2b6b45c30f79?index=0",
       "videoName": "90f5783d-9b9c-4d84-8d18-2b6b45c30f79",
       "videoUrl": "https://cdn.midjourney.com/video/90f5783d-9b9c-4d84-8d18-2b6b45c30f79/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/1b3d1c5b-a075-428b-a60c-f0a2f9ac37ae?index=0",
       "videoName": "1b3d1c5b-a075-428b-a60c-f0a2f9ac37ae",
       "videoUrl": "https://cdn.midjourney.com/video/1b3d1c5b-a075-428b-a60c-f0a2f9ac37ae/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/9c204802-8680-4a03-b000-8ef0a1d695ba?index=0",
       "videoName": "9c204802-8680-4a03-b000-8ef0a1d695ba",
       "videoUrl": "https://cdn.midjourney.com/video/9c204802-8680-4a03-b000-8ef0a1d695ba/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/70def853-eed2-46c2-b080-1ef719997e32?index=0",
       "videoName": "70def853-eed2-46c2-b080-1ef719997e32",
       "videoUrl": "https://cdn.midjourney.com/video/70def853-eed2-46c2-b080-1ef719997e32/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/73b4ab9a-b9cb-4f0f-993e-838982869eb7?index=0",
       "videoName": "73b4ab9a-b9cb-4f0f-993e-838982869eb7",
       "videoUrl": "https://cdn.midjourney.com/video/73b4ab9a-b9cb-4f0f-993e-838982869eb7/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/572f564b-077d-4467-a56e-039774afcff0?index=0",
       "videoName": "572f564b-077d-4467-a56e-039774afcff0",
       "videoUrl": "https://cdn.midjourney.com/video/572f564b-077d-4467-a56e-039774afcff0/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/05be7b24-6eee-4da7-b7f7-a5a417a1f09c?index=0",
       "videoName": "05be7b24-6eee-4da7-b7f7-a5a417a1f09c",
       "videoUrl": "https://cdn.midjourney.com/video/05be7b24-6eee-4da7-b7f7-a5a417a1f09c/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/c73fae6c-a1d3-4eb3-bc1f-5de4b770212b?index=0",
       "videoName": "c73fae6c-a1d3-4eb3-bc1f-5de4b770212b",
       "videoUrl": "https://cdn.midjourney.com/video/c73fae6c-a1d3-4eb3-bc1f-5de4b770212b/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/39e30511-3873-4ff6-818b-06e423505c96?index=0",
       "videoName": "39e30511-3873-4ff6-818b-06e423505c96",
       "videoUrl": "https://cdn.midjourney.com/video/39e30511-3873-4ff6-818b-06e423505c96/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/ca7225f9-8fc3-4d4e-922a-c1ddeb763c4c?index=0",
       "videoName": "ca7225f9-8fc3-4d4e-922a-c1ddeb763c4c",
       "videoUrl": "https://cdn.midjourney.com/video/ca7225f9-8fc3-4d4e-922a-c1ddeb763c4c/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/f85b706a-7d17-4a35-9fdd-32cbb8472377?index=0",
       "videoName": "f85b706a-7d17-4a35-9fdd-32cbb8472377",
       "videoUrl": "https://cdn.midjourney.com/video/f85b706a-7d17-4a35-9fdd-32cbb8472377/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/aeb71edf-cdc1-435c-a0a4-98f0ce0beb6d?index=0",
       "videoName": "aeb71edf-cdc1-435c-a0a4-98f0ce0beb6d",
       "videoUrl": "https://cdn.midjourney.com/video/aeb71edf-cdc1-435c-a0a4-98f0ce0beb6d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/80f45847-88b7-4bc9-afa6-1c0d6a269f92?index=0",
       "videoName": "80f45847-88b7-4bc9-afa6-1c0d6a269f92",
       "videoUrl": "https://cdn.midjourney.com/video/80f45847-88b7-4bc9-afa6-1c0d6a269f92/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/6e4601c1-4079-4cba-85b4-c5c2e39cf9df?index=0",
       "videoName": "6e4601c1-4079-4cba-85b4-c5c2e39cf9df",
       "videoUrl": "https://cdn.midjourney.com/video/6e4601c1-4079-4cba-85b4-c5c2e39cf9df/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/898fc9a3-7496-432d-8043-6f166a12bc78?index=0",
       "videoName": "898fc9a3-7496-432d-8043-6f166a12bc78",
       "videoUrl": "https://cdn.midjourney.com/video/898fc9a3-7496-432d-8043-6f166a12bc78/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/fe826f65-5c78-45ad-8166-97d90f1217b0?index=0",
       "videoName": "fe826f65-5c78-45ad-8166-97d90f1217b0",
       "videoUrl": "https://cdn.midjourney.com/video/fe826f65-5c78-45ad-8166-97d90f1217b0/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/eb75d046-a3ae-4787-9cde-903bf8487b1a?index=0",
       "videoName": "eb75d046-a3ae-4787-9cde-903bf8487b1a",
       "videoUrl": "https://cdn.midjourney.com/video/eb75d046-a3ae-4787-9cde-903bf8487b1a/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/79e922d1-1277-479f-97a2-4ec985c8405b?index=0",
       "videoName": "79e922d1-1277-479f-97a2-4ec985c8405b",
       "videoUrl": "https://cdn.midjourney.com/video/79e922d1-1277-479f-97a2-4ec985c8405b/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/b5b95dea-f952-4c3c-95b7-d54d1814fdf9?index=0",
       "videoName": "b5b95dea-f952-4c3c-95b7-d54d1814fdf9",
       "videoUrl": "https://cdn.midjourney.com/video/b5b95dea-f952-4c3c-95b7-d54d1814fdf9/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/516c2909-1db8-4845-ade1-a308ac07199f?index=0",
       "videoName": "516c2909-1db8-4845-ade1-a308ac07199f",
       "videoUrl": "https://cdn.midjourney.com/video/516c2909-1db8-4845-ade1-a308ac07199f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/4651aab7-bbc6-4993-9f94-0254a14c3683?index=0",
       "videoName": "4651aab7-bbc6-4993-9f94-0254a14c3683",
       "videoUrl": "https://cdn.midjourney.com/video/4651aab7-bbc6-4993-9f94-0254a14c3683/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/2512dd61-0b12-4ad4-bc05-19da0dfaf286?index=0",
       "videoName": "2512dd61-0b12-4ad4-bc05-19da0dfaf286",
       "videoUrl": "https://cdn.midjourney.com/video/2512dd61-0b12-4ad4-bc05-19da0dfaf286/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/582e0257-a3a7-41bf-95ec-c4d4e29635cb?index=0",
       "videoName": "582e0257-a3a7-41bf-95ec-c4d4e29635cb",
       "videoUrl": "https://cdn.midjourney.com/video/582e0257-a3a7-41bf-95ec-c4d4e29635cb/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/5a164236-fc6c-4a41-ad03-9dd4e46b7f39?index=0",
       "videoName": "5a164236-fc6c-4a41-ad03-9dd4e46b7f39",
       "videoUrl": "https://cdn.midjourney.com/video/5a164236-fc6c-4a41-ad03-9dd4e46b7f39/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/a1309925-2a8d-4e38-97ec-369e7055f175?index=0",
       "videoName": "a1309925-2a8d-4e38-97ec-369e7055f175",
       "videoUrl": "https://cdn.midjourney.com/video/a1309925-2a8d-4e38-97ec-369e7055f175/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/0abdcb87-43dd-4b61-9b56-fe0fb74bbf4e?index=0",
       "videoName": "0abdcb87-43dd-4b61-9b56-fe0fb74bbf4e",
       "videoUrl": "https://cdn.midjourney.com/video/0abdcb87-43dd-4b61-9b56-fe0fb74bbf4e/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/1717d486-f320-478e-904f-0cf5e8682029?index=0",
       "videoName": "1717d486-f320-478e-904f-0cf5e8682029",
       "videoUrl": "https://cdn.midjourney.com/video/1717d486-f320-478e-904f-0cf5e8682029/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/ffd55196-78b3-4cc4-980e-202ebd371171?index=0",
       "videoName": "ffd55196-78b3-4cc4-980e-202ebd371171",
       "videoUrl": "https://cdn.midjourney.com/video/ffd55196-78b3-4cc4-980e-202ebd371171/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/57532f71-f69c-4642-b934-a4a32ac30fa4?index=0",
       "videoName": "57532f71-f69c-4642-b934-a4a32ac30fa4",
       "videoUrl": "https://cdn.midjourney.com/video/57532f71-f69c-4642-b934-a4a32ac30fa4/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/bbf3989e-d694-4570-9cc8-7606ba8f01ea?index=0",
       "videoName": "bbf3989e-d694-4570-9cc8-7606ba8f01ea",
       "videoUrl": "https://cdn.midjourney.com/video/bbf3989e-d694-4570-9cc8-7606ba8f01ea/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/4f6616c4-6a72-4001-8949-52beeec5dbda?index=0",
       "videoName": "4f6616c4-6a72-4001-8949-52beeec5dbda",
       "videoUrl": "https://cdn.midjourney.com/video/4f6616c4-6a72-4001-8949-52beeec5dbda/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/e1349ec9-cf3a-4f64-845e-f825c1d2df5d?index=0",
       "videoName": "e1349ec9-cf3a-4f64-845e-f825c1d2df5d",
       "videoUrl": "https://cdn.midjourney.com/video/e1349ec9-cf3a-4f64-845e-f825c1d2df5d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/c87165fd-f939-4729-89cf-d134926f089b?index=0",
       "videoName": "c87165fd-f939-4729-89cf-d134926f089b",
       "videoUrl": "https://cdn.midjourney.com/video/c87165fd-f939-4729-89cf-d134926f089b/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/ea142386-4a35-497e-9c79-b29684bacca3?index=0",
       "videoName": "ea142386-4a35-497e-9c79-b29684bacca3",
       "videoUrl": "https://cdn.midjourney.com/video/ea142386-4a35-497e-9c79-b29684bacca3/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/c38312f9-7a16-4416-b3bb-64c87432f533?index=0",
       "videoName": "c38312f9-7a16-4416-b3bb-64c87432f533",
       "videoUrl": "https://cdn.midjourney.com/video/c38312f9-7a16-4416-b3bb-64c87432f533/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/00154dee-1d00-4479-956c-5d2f8e26edb0?index=0",
       "videoName": "00154dee-1d00-4479-956c-5d2f8e26edb0",
       "videoUrl": "https://cdn.midjourney.com/video/00154dee-1d00-4479-956c-5d2f8e26edb0/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/0063e966-640a-447a-a8a8-39787f5bc197?index=0",
       "videoName": "0063e966-640a-447a-a8a8-39787f5bc197",
       "videoUrl": "https://cdn.midjourney.com/video/0063e966-640a-447a-a8a8-39787f5bc197/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/5eaf9f96-c2e3-485a-b5d5-75cbf2716b4d?index=0",
       "videoName": "5eaf9f96-c2e3-485a-b5d5-75cbf2716b4d",
       "videoUrl": "https://cdn.midjourney.com/video/5eaf9f96-c2e3-485a-b5d5-75cbf2716b4d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/4d29826c-7943-4426-8d7b-4eca116eccb4?index=0",
       "videoName": "4d29826c-7943-4426-8d7b-4eca116eccb4",
       "videoUrl": "https://cdn.midjourney.com/video/4d29826c-7943-4426-8d7b-4eca116eccb4/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/e763a0fc-e0ed-4f07-8e2e-87d8fa87bd52?index=0",
       "videoName": "e763a0fc-e0ed-4f07-8e2e-87d8fa87bd52",
       "videoUrl": "https://cdn.midjourney.com/video/e763a0fc-e0ed-4f07-8e2e-87d8fa87bd52/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/3fe9d301-069f-40b2-86ba-dbde9582f037?index=0",
       "videoName": "3fe9d301-069f-40b2-86ba-dbde9582f037",
       "videoUrl": "https://cdn.midjourney.com/video/3fe9d301-069f-40b2-86ba-dbde9582f037/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/32e73166-ccd5-44f5-b6c8-8c0917d6800f?index=0",
       "videoName": "32e73166-ccd5-44f5-b6c8-8c0917d6800f",
       "videoUrl": "https://cdn.midjourney.com/video/32e73166-ccd5-44f5-b6c8-8c0917d6800f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/20493885-3147-46ee-87b0-2cfdc3df88f0?index=0",
       "videoName": "20493885-3147-46ee-87b0-2cfdc3df88f0",
       "videoUrl": "https://cdn.midjourney.com/video/20493885-3147-46ee-87b0-2cfdc3df88f0/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/2a332f4b-52c4-483a-8ff9-38df46755815?index=0",
       "videoName": "2a332f4b-52c4-483a-8ff9-38df46755815",
       "videoUrl": "https://cdn.midjourney.com/video/2a332f4b-52c4-483a-8ff9-38df46755815/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/4f9a15b9-11b2-4f34-a4dd-d2b1f93abdbf?index=0",
       "videoName": "4f9a15b9-11b2-4f34-a4dd-d2b1f93abdbf",
       "videoUrl": "https://cdn.midjourney.com/video/4f9a15b9-11b2-4f34-a4dd-d2b1f93abdbf/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/7cc61561-f550-406b-8763-de35453b9a22?index=0",
       "videoName": "7cc61561-f550-406b-8763-de35453b9a22",
       "videoUrl": "https://cdn.midjourney.com/video/7cc61561-f550-406b-8763-de35453b9a22/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/b6032db3-23e8-4961-a09b-93394aa3b1fa?index=0",
       "videoName": "b6032db3-23e8-4961-a09b-93394aa3b1fa",
       "videoUrl": "https://cdn.midjourney.com/video/b6032db3-23e8-4961-a09b-93394aa3b1fa/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/ac8d706c-3879-4382-972a-4aacd239775f?index=0",
       "videoName": "ac8d706c-3879-4382-972a-4aacd239775f",
       "videoUrl": "https://cdn.midjourney.com/video/ac8d706c-3879-4382-972a-4aacd239775f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/f68eb2b1-e8e5-49c6-af2d-011fdb69080d?index=0",
       "videoName": "f68eb2b1-e8e5-49c6-af2d-011fdb69080d",
       "videoUrl": "https://cdn.midjourney.com/video/f68eb2b1-e8e5-49c6-af2d-011fdb69080d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/ca9d43fa-7293-45ab-9442-2ea3886b719f?index=0",
       "videoName": "ca9d43fa-7293-45ab-9442-2ea3886b719f",
       "videoUrl": "https://cdn.midjourney.com/video/ca9d43fa-7293-45ab-9442-2ea3886b719f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/21eec0ad-5404-4773-8d47-93fa62d67958?index=0",
       "videoName": "21eec0ad-5404-4773-8d47-93fa62d67958",
       "videoUrl": "https://cdn.midjourney.com/video/21eec0ad-5404-4773-8d47-93fa62d67958/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/d26933da-c381-4866-ac25-96490c81d888?index=0",
       "videoName": "d26933da-c381-4866-ac25-96490c81d888",
       "videoUrl": "https://cdn.midjourney.com/video/d26933da-c381-4866-ac25-96490c81d888/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/9690b0db-fe05-4bcd-a14f-edc951152c9a?index=0",
       "videoName": "9690b0db-fe05-4bcd-a14f-edc951152c9a",
       "videoUrl": "https://cdn.midjourney.com/video/9690b0db-fe05-4bcd-a14f-edc951152c9a/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/a2ccb548-e991-4942-b783-51fb6cbb0ff0?index=0",
       "videoName": "a2ccb548-e991-4942-b783-51fb6cbb0ff0",
       "videoUrl": "https://cdn.midjourney.com/video/a2ccb548-e991-4942-b783-51fb6cbb0ff0/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/88cac7e3-dd88-4cfe-9c27-20be1b43e21d?index=0",
       "videoName": "88cac7e3-dd88-4cfe-9c27-20be1b43e21d",
       "videoUrl": "https://cdn.midjourney.com/video/88cac7e3-dd88-4cfe-9c27-20be1b43e21d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/9ed454fd-5f4f-4b5c-a90c-866e4744166f?index=0",
       "videoName": "9ed454fd-5f4f-4b5c-a90c-866e4744166f",
       "videoUrl": "https://cdn.midjourney.com/video/9ed454fd-5f4f-4b5c-a90c-866e4744166f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/a3313ec4-e253-43b1-9729-4859b3f38076?index=0",
       "videoName": "a3313ec4-e253-43b1-9729-4859b3f38076",
       "videoUrl": "https://cdn.midjourney.com/video/a3313ec4-e253-43b1-9729-4859b3f38076/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/7b1d3bd7-560b-446b-837c-07314b57413d?index=0",
       "videoName": "7b1d3bd7-560b-446b-837c-07314b57413d",
       "videoUrl": "https://cdn.midjourney.com/video/7b1d3bd7-560b-446b-837c-07314b57413d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/994c9902-bcf4-40be-975d-60ead6cbe2b8?index=0",
       "videoName": "994c9902-bcf4-40be-975d-60ead6cbe2b8",
       "videoUrl": "https://cdn.midjourney.com/video/994c9902-bcf4-40be-975d-60ead6cbe2b8/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/a7b12720-f43b-459c-ba50-86e0679031fc?index=0",
       "videoName": "a7b12720-f43b-459c-ba50-86e0679031fc",
       "videoUrl": "https://cdn.midjourney.com/video/a7b12720-f43b-459c-ba50-86e0679031fc/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/4af69506-cf25-4914-82c1-bd527c3e9d9a?index=0",
       "videoName": "4af69506-cf25-4914-82c1-bd527c3e9d9a",
       "videoUrl": "https://cdn.midjourney.com/video/4af69506-cf25-4914-82c1-bd527c3e9d9a/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/77b32a53-c6c3-4927-be37-62f6e24d5735?index=0",
       "videoName": "77b32a53-c6c3-4927-be37-62f6e24d5735",
       "videoUrl": "https://cdn.midjourney.com/video/77b32a53-c6c3-4927-be37-62f6e24d5735/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/5e875085-7cf8-4295-a237-85575a8350ff?index=0",
       "videoName": "5e875085-7cf8-4295-a237-85575a8350ff",
       "videoUrl": "https://cdn.midjourney.com/video/5e875085-7cf8-4295-a237-85575a8350ff/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/44e2e9fb-c01d-401f-b4f8-dc6eaa80ea71?index=0",
       "videoName": "44e2e9fb-c01d-401f-b4f8-dc6eaa80ea71",
       "videoUrl": "https://cdn.midjourney.com/video/44e2e9fb-c01d-401f-b4f8-dc6eaa80ea71/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/c5f25b90-82ad-436b-bc82-bcfcb1141584?index=0",
       "videoName": "c5f25b90-82ad-436b-bc82-bcfcb1141584",
       "videoUrl": "https://cdn.midjourney.com/video/c5f25b90-82ad-436b-bc82-bcfcb1141584/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/456357d8-d6a1-4aaa-9c03-380916dcc745?index=0",
       "videoName": "456357d8-d6a1-4aaa-9c03-380916dcc745",
       "videoUrl": "https://cdn.midjourney.com/video/456357d8-d6a1-4aaa-9c03-380916dcc745/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/9f46a9aa-03cc-4693-8b0b-12f3be73324f?index=0",
       "videoName": "9f46a9aa-03cc-4693-8b0b-12f3be73324f",
       "videoUrl": "https://cdn.midjourney.com/video/9f46a9aa-03cc-4693-8b0b-12f3be73324f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/6ac2dbe2-5e89-4ffe-8b71-0c1ae80ad9fa?index=0",
       "videoName": "6ac2dbe2-5e89-4ffe-8b71-0c1ae80ad9fa",
       "videoUrl": "https://cdn.midjourney.com/video/6ac2dbe2-5e89-4ffe-8b71-0c1ae80ad9fa/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/1f47b740-1a5c-40d9-ab10-cc8d65209b69?index=0",
       "videoName": "1f47b740-1a5c-40d9-ab10-cc8d65209b69",
       "videoUrl": "https://cdn.midjourney.com/video/1f47b740-1a5c-40d9-ab10-cc8d65209b69/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/100083f1-fc22-40c4-af56-4a08c7fd0806?index=0",
       "videoName": "100083f1-fc22-40c4-af56-4a08c7fd0806",
       "videoUrl": "https://cdn.midjourney.com/video/100083f1-fc22-40c4-af56-4a08c7fd0806/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/c2d457ba-6eaa-4f53-894c-166f12ddde4e?index=0",
       "videoName": "c2d457ba-6eaa-4f53-894c-166f12ddde4e",
       "videoUrl": "https://cdn.midjourney.com/video/c2d457ba-6eaa-4f53-894c-166f12ddde4e/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/99905999-70a6-45d4-81ca-40817015922c?index=0",
       "videoName": "99905999-70a6-45d4-81ca-40817015922c",
       "videoUrl": "https://cdn.midjourney.com/video/99905999-70a6-45d4-81ca-40817015922c/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/bd5032d2-11f3-4843-bfc7-2ad22ea7b4e0?index=0",
       "videoName": "bd5032d2-11f3-4843-bfc7-2ad22ea7b4e0",
       "videoUrl": "https://cdn.midjourney.com/video/bd5032d2-11f3-4843-bfc7-2ad22ea7b4e0/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/1fcf31cc-417c-454d-90ca-2acbc752ce48?index=0",
       "videoName": "1fcf31cc-417c-454d-90ca-2acbc752ce48",
       "videoUrl": "https://cdn.midjourney.com/video/1fcf31cc-417c-454d-90ca-2acbc752ce48/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/9ce3378d-0c14-40fe-a3eb-ab4696c73fa6?index=0",
       "videoName": "9ce3378d-0c14-40fe-a3eb-ab4696c73fa6",
       "videoUrl": "https://cdn.midjourney.com/video/9ce3378d-0c14-40fe-a3eb-ab4696c73fa6/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/39caaf7b-0718-4e5b-a2ba-983d953332f0?index=0",
       "videoName": "39caaf7b-0718-4e5b-a2ba-983d953332f0",
       "videoUrl": "https://cdn.midjourney.com/video/39caaf7b-0718-4e5b-a2ba-983d953332f0/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/24146dda-d3a6-4122-9112-04ad18114ade?index=0",
       "videoName": "24146dda-d3a6-4122-9112-04ad18114ade",
       "videoUrl": "https://cdn.midjourney.com/video/24146dda-d3a6-4122-9112-04ad18114ade/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/af6e13b2-750b-49b3-83b0-334af2013f88?index=0",
       "videoName": "af6e13b2-750b-49b3-83b0-334af2013f88",
       "videoUrl": "https://cdn.midjourney.com/video/af6e13b2-750b-49b3-83b0-334af2013f88/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/a2cf3e70-4264-4660-afea-1b577d16a332?index=0",
       "videoName": "a2cf3e70-4264-4660-afea-1b577d16a332",
       "videoUrl": "https://cdn.midjourney.com/video/a2cf3e70-4264-4660-afea-1b577d16a332/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/e01e5de1-e539-42e3-8f73-56d0fb5ebc55?index=0",
       "videoName": "e01e5de1-e539-42e3-8f73-56d0fb5ebc55",
       "videoUrl": "https://cdn.midjourney.com/video/e01e5de1-e539-42e3-8f73-56d0fb5ebc55/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/b3285c18-fce5-4083-bb2b-eed1ff9a5f05?index=0",
       "videoName": "b3285c18-fce5-4083-bb2b-eed1ff9a5f05",
       "videoUrl": "https://cdn.midjourney.com/video/b3285c18-fce5-4083-bb2b-eed1ff9a5f05/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/6c7c589e-b7c5-422f-b2ae-2fcd27f3c053?index=0",
       "videoName": "6c7c589e-b7c5-422f-b2ae-2fcd27f3c053",
       "videoUrl": "https://cdn.midjourney.com/video/6c7c589e-b7c5-422f-b2ae-2fcd27f3c053/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/11bb1a5e-24b6-4b1a-958b-10a5039ab823?index=0",
       "videoName": "11bb1a5e-24b6-4b1a-958b-10a5039ab823",
       "videoUrl": "https://cdn.midjourney.com/video/11bb1a5e-24b6-4b1a-958b-10a5039ab823/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/2f9ad527-eb2f-4780-a6e2-7ef8675f4b88?index=0",
       "videoName": "2f9ad527-eb2f-4780-a6e2-7ef8675f4b88",
       "videoUrl": "https://cdn.midjourney.com/video/2f9ad527-eb2f-4780-a6e2-7ef8675f4b88/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/0035b02a-cd15-4d17-afa8-03a5071c9ed4?index=0",
       "videoName": "0035b02a-cd15-4d17-afa8-03a5071c9ed4",
       "videoUrl": "https://cdn.midjourney.com/video/0035b02a-cd15-4d17-afa8-03a5071c9ed4/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/33161430-0fad-44d7-97ae-af626861559c?index=0",
       "videoName": "33161430-0fad-44d7-97ae-af626861559c",
       "videoUrl": "https://cdn.midjourney.com/video/33161430-0fad-44d7-97ae-af626861559c/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/c8dc9e36-8c00-4b7e-861c-0fdf9b2deb84?index=0",
       "videoName": "c8dc9e36-8c00-4b7e-861c-0fdf9b2deb84",
       "videoUrl": "https://cdn.midjourney.com/video/c8dc9e36-8c00-4b7e-861c-0fdf9b2deb84/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/a16b47c8-2e66-4e5e-8ba5-ac880bc9e976?index=0",
       "videoName": "a16b47c8-2e66-4e5e-8ba5-ac880bc9e976",
       "videoUrl": "https://cdn.midjourney.com/video/a16b47c8-2e66-4e5e-8ba5-ac880bc9e976/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/25307034-d51b-4634-8161-c076c383ad65?index=0",
       "videoName": "25307034-d51b-4634-8161-c076c383ad65",
       "videoUrl": "https://cdn.midjourney.com/video/25307034-d51b-4634-8161-c076c383ad65/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/d63351aa-7629-471c-9bf7-2f042c678899?index=0",
       "videoName": "d63351aa-7629-471c-9bf7-2f042c678899",
       "videoUrl": "https://cdn.midjourney.com/video/d63351aa-7629-471c-9bf7-2f042c678899/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/1a02f0aa-3b7f-4cd0-8b60-bc2e98282e31?index=0",
       "videoName": "1a02f0aa-3b7f-4cd0-8b60-bc2e98282e31",
       "videoUrl": "https://cdn.midjourney.com/video/1a02f0aa-3b7f-4cd0-8b60-bc2e98282e31/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/858e8464-f6c4-4ffc-b8ed-b8823c4f515d?index=0",
       "videoName": "858e8464-f6c4-4ffc-b8ed-b8823c4f515d",
       "videoUrl": "https://cdn.midjourney.com/video/858e8464-f6c4-4ffc-b8ed-b8823c4f515d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/965e8e1a-a1c9-44b1-8c79-e5ba4107d13e?index=0",
       "videoName": "965e8e1a-a1c9-44b1-8c79-e5ba4107d13e",
       "videoUrl": "https://cdn.midjourney.com/video/965e8e1a-a1c9-44b1-8c79-e5ba4107d13e/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/c26f3fee-bb7e-49f0-a3b6-feac3c3aed80?index=0",
       "videoName": "c26f3fee-bb7e-49f0-a3b6-feac3c3aed80",
       "videoUrl": "https://cdn.midjourney.com/video/c26f3fee-bb7e-49f0-a3b6-feac3c3aed80/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/9819c717-ee6e-4f99-ac69-a8f855dc56d9?index=0",
       "videoName": "9819c717-ee6e-4f99-ac69-a8f855dc56d9",
       "videoUrl": "https://cdn.midjourney.com/video/9819c717-ee6e-4f99-ac69-a8f855dc56d9/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/d117eed9-d4f9-46b4-a8a3-466ed41fe606?index=0",
       "videoName": "d117eed9-d4f9-46b4-a8a3-466ed41fe606",
       "videoUrl": "https://cdn.midjourney.com/video/d117eed9-d4f9-46b4-a8a3-466ed41fe606/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/3f4736f2-5ec6-4c0d-8a45-20f3cb245f7d?index=0",
       "videoName": "3f4736f2-5ec6-4c0d-8a45-20f3cb245f7d",
       "videoUrl": "https://cdn.midjourney.com/video/3f4736f2-5ec6-4c0d-8a45-20f3cb245f7d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/771faba5-3621-4e76-871a-79bb2bb0fcea?index=0",
       "videoName": "771faba5-3621-4e76-871a-79bb2bb0fcea",
       "videoUrl": "https://cdn.midjourney.com/video/771faba5-3621-4e76-871a-79bb2bb0fcea/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/00412ce1-7dd1-4290-9281-6e035f7ed877?index=0",
       "videoName": "00412ce1-7dd1-4290-9281-6e035f7ed877",
       "videoUrl": "https://cdn.midjourney.com/video/00412ce1-7dd1-4290-9281-6e035f7ed877/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/13594c65-88a0-424f-81be-01b144f834c2?index=0",
       "videoName": "13594c65-88a0-424f-81be-01b144f834c2",
       "videoUrl": "https://cdn.midjourney.com/video/13594c65-88a0-424f-81be-01b144f834c2/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/a70d62d2-4887-4276-947a-2957a6ea091f?index=0",
       "videoName": "a70d62d2-4887-4276-947a-2957a6ea091f",
       "videoUrl": "https://cdn.midjourney.com/video/a70d62d2-4887-4276-947a-2957a6ea091f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/ca6dfa17-7ce6-4e15-8e66-8514e2f8150f?index=0",
       "videoName": "ca6dfa17-7ce6-4e15-8e66-8514e2f8150f",
       "videoUrl": "https://cdn.midjourney.com/video/ca6dfa17-7ce6-4e15-8e66-8514e2f8150f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/e121d4a0-bfb0-4712-9be3-582a2136fa69?index=0",
       "videoName": "e121d4a0-bfb0-4712-9be3-582a2136fa69",
       "videoUrl": "https://cdn.midjourney.com/video/e121d4a0-bfb0-4712-9be3-582a2136fa69/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/018fad58-0d1d-487a-90ec-3b35fbaaeef3?index=0",
       "videoName": "018fad58-0d1d-487a-90ec-3b35fbaaeef3",
       "videoUrl": "https://cdn.midjourney.com/video/018fad58-0d1d-487a-90ec-3b35fbaaeef3/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/62f28796-41f5-4c89-a5b6-b6b7e1fab20b?index=0",
       "videoName": "62f28796-41f5-4c89-a5b6-b6b7e1fab20b",
       "videoUrl": "https://cdn.midjourney.com/video/62f28796-41f5-4c89-a5b6-b6b7e1fab20b/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/98f588bc-9e6e-4fe1-abf8-9b8b4969672d?index=0",
       "videoName": "98f588bc-9e6e-4fe1-abf8-9b8b4969672d",
       "videoUrl": "https://cdn.midjourney.com/video/98f588bc-9e6e-4fe1-abf8-9b8b4969672d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/2805c117-a351-4947-a1fc-9dc3aad578a2?index=0",
       "videoName": "2805c117-a351-4947-a1fc-9dc3aad578a2",
       "videoUrl": "https://cdn.midjourney.com/video/2805c117-a351-4947-a1fc-9dc3aad578a2/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/8040094e-c82d-41dd-bfcf-061095946f99?index=0",
       "videoName": "8040094e-c82d-41dd-bfcf-061095946f99",
       "videoUrl": "https://cdn.midjourney.com/video/8040094e-c82d-41dd-bfcf-061095946f99/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/2c4ac95e-e0b1-4da4-b5fc-807fde1889c6?index=0",
       "videoName": "2c4ac95e-e0b1-4da4-b5fc-807fde1889c6",
       "videoUrl": "https://cdn.midjourney.com/video/2c4ac95e-e0b1-4da4-b5fc-807fde1889c6/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/4d22c33f-953f-4a73-8270-1fd0457baa02?index=0",
       "videoName": "4d22c33f-953f-4a73-8270-1fd0457baa02",
       "videoUrl": "https://cdn.midjourney.com/video/4d22c33f-953f-4a73-8270-1fd0457baa02/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/377cc7a5-462b-47f9-b595-a6b1541ffbc8?index=0",
       "videoName": "377cc7a5-462b-47f9-b595-a6b1541ffbc8",
       "videoUrl": "https://cdn.midjourney.com/video/377cc7a5-462b-47f9-b595-a6b1541ffbc8/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/69818444-ab00-4f53-913c-5a52575e62be?index=0",
       "videoName": "69818444-ab00-4f53-913c-5a52575e62be",
       "videoUrl": "https://cdn.midjourney.com/video/69818444-ab00-4f53-913c-5a52575e62be/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/285ade63-2d08-4fe6-a4a0-77320c48846a?index=0",
       "videoName": "285ade63-2d08-4fe6-a4a0-77320c48846a",
       "videoUrl": "https://cdn.midjourney.com/video/285ade63-2d08-4fe6-a4a0-77320c48846a/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/b0f4ce43-685f-4eab-9f7c-d449eca7d0b5?index=0",
       "videoName": "b0f4ce43-685f-4eab-9f7c-d449eca7d0b5",
       "videoUrl": "https://cdn.midjourney.com/video/b0f4ce43-685f-4eab-9f7c-d449eca7d0b5/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/359b7dbc-b974-4470-a5f0-da7c23ed125a?index=0",
       "videoName": "359b7dbc-b974-4470-a5f0-da7c23ed125a",
       "videoUrl": "https://cdn.midjourney.com/video/359b7dbc-b974-4470-a5f0-da7c23ed125a/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/ae7fa89f-62e1-4d86-ba7e-e7953102bdbb?index=0",
       "videoName": "ae7fa89f-62e1-4d86-ba7e-e7953102bdbb",
       "videoUrl": "https://cdn.midjourney.com/video/ae7fa89f-62e1-4d86-ba7e-e7953102bdbb/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/93a5311b-b67c-40fb-a209-66b948b2a70d?index=0",
       "videoName": "93a5311b-b67c-40fb-a209-66b948b2a70d",
       "videoUrl": "https://cdn.midjourney.com/video/93a5311b-b67c-40fb-a209-66b948b2a70d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/6462ed4b-6f7d-4718-87bf-18d8992dd1b0?index=0",
       "videoName": "6462ed4b-6f7d-4718-87bf-18d8992dd1b0",
       "videoUrl": "https://cdn.midjourney.com/video/6462ed4b-6f7d-4718-87bf-18d8992dd1b0/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/2d333be4-70e8-4a90-956d-f29b9a661282?index=0",
       "videoName": "2d333be4-70e8-4a90-956d-f29b9a661282",
       "videoUrl": "https://cdn.midjourney.com/video/2d333be4-70e8-4a90-956d-f29b9a661282/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/04b1416c-98e4-4810-9fc0-dfc76b8c4cb8?index=0",
       "videoName": "04b1416c-98e4-4810-9fc0-dfc76b8c4cb8",
       "videoUrl": "https://cdn.midjourney.com/video/04b1416c-98e4-4810-9fc0-dfc76b8c4cb8/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/9ec95cbf-194c-4cdc-8a3c-60a49d166a27?index=0",
       "videoName": "9ec95cbf-194c-4cdc-8a3c-60a49d166a27",
       "videoUrl": "https://cdn.midjourney.com/video/9ec95cbf-194c-4cdc-8a3c-60a49d166a27/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/71539539-984e-402e-a1c7-a8cc3bebff3a?index=0",
       "videoName": "71539539-984e-402e-a1c7-a8cc3bebff3a",
       "videoUrl": "https://cdn.midjourney.com/video/71539539-984e-402e-a1c7-a8cc3bebff3a/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/939f6578-917e-412d-8b04-4efdf9de5350?index=0",
       "videoName": "939f6578-917e-412d-8b04-4efdf9de5350",
       "videoUrl": "https://cdn.midjourney.com/video/939f6578-917e-412d-8b04-4efdf9de5350/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/815142b0-a6e6-4804-bd4e-a62ab83aae76?index=0",
       "videoName": "815142b0-a6e6-4804-bd4e-a62ab83aae76",
       "videoUrl": "https://cdn.midjourney.com/video/815142b0-a6e6-4804-bd4e-a62ab83aae76/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/8403d4c7-08d3-4ac3-9a83-9ea85f14e923?index=0",
       "videoName": "8403d4c7-08d3-4ac3-9a83-9ea85f14e923",
       "videoUrl": "https://cdn.midjourney.com/video/8403d4c7-08d3-4ac3-9a83-9ea85f14e923/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/916bbf88-2ade-426d-a7d7-419ee5ab56c0?index=0",
       "videoName": "916bbf88-2ade-426d-a7d7-419ee5ab56c0",
       "videoUrl": "https://cdn.midjourney.com/video/916bbf88-2ade-426d-a7d7-419ee5ab56c0/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/fd324478-2810-4797-ba9d-e03c9c42a7da?index=0",
       "videoName": "fd324478-2810-4797-ba9d-e03c9c42a7da",
       "videoUrl": "https://cdn.midjourney.com/video/fd324478-2810-4797-ba9d-e03c9c42a7da/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/03a67bca-2061-456e-ac7c-bb6291c9562c?index=0",
       "videoName": "03a67bca-2061-456e-ac7c-bb6291c9562c",
       "videoUrl": "https://cdn.midjourney.com/video/03a67bca-2061-456e-ac7c-bb6291c9562c/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/3fc08c3e-168d-48ff-94cf-902423cd1344?index=0",
       "videoName": "3fc08c3e-168d-48ff-94cf-902423cd1344",
       "videoUrl": "https://cdn.midjourney.com/video/3fc08c3e-168d-48ff-94cf-902423cd1344/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/ff62f413-4349-45d1-89d5-cf649453b1c1?index=0",
       "videoName": "ff62f413-4349-45d1-89d5-cf649453b1c1",
       "videoUrl": "https://cdn.midjourney.com/video/ff62f413-4349-45d1-89d5-cf649453b1c1/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/29dc7ddb-094d-46ba-a06b-3395988b1422?index=0",
       "videoName": "29dc7ddb-094d-46ba-a06b-3395988b1422",
       "videoUrl": "https://cdn.midjourney.com/video/29dc7ddb-094d-46ba-a06b-3395988b1422/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/2b7b44ca-04cf-4b75-89a1-6c733efd133f?index=0",
       "videoName": "2b7b44ca-04cf-4b75-89a1-6c733efd133f",
       "videoUrl": "https://cdn.midjourney.com/video/2b7b44ca-04cf-4b75-89a1-6c733efd133f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/96ff9bb8-07a9-49a9-9fb6-e55b60be8830?index=0",
       "videoName": "96ff9bb8-07a9-49a9-9fb6-e55b60be8830",
       "videoUrl": "https://cdn.midjourney.com/video/96ff9bb8-07a9-49a9-9fb6-e55b60be8830/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/b3bcf827-e099-44f1-a742-714269e5f5a2?index=0",
       "videoName": "b3bcf827-e099-44f1-a742-714269e5f5a2",
       "videoUrl": "https://cdn.midjourney.com/video/b3bcf827-e099-44f1-a742-714269e5f5a2/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/1413dcc1-af1f-4310-adf1-ee64a9a4c189?index=0",
       "videoName": "1413dcc1-af1f-4310-adf1-ee64a9a4c189",
       "videoUrl": "https://cdn.midjourney.com/video/1413dcc1-af1f-4310-adf1-ee64a9a4c189/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/e6b6dba5-c727-4190-84c1-5fcf08457fa4?index=0",
       "videoName": "e6b6dba5-c727-4190-84c1-5fcf08457fa4",
       "videoUrl": "https://cdn.midjourney.com/video/e6b6dba5-c727-4190-84c1-5fcf08457fa4/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/58276ce8-f3ec-462a-b6c3-36175ab40951?index=0",
       "videoName": "58276ce8-f3ec-462a-b6c3-36175ab40951",
       "videoUrl": "https://cdn.midjourney.com/video/58276ce8-f3ec-462a-b6c3-36175ab40951/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/2f24d55d-b923-4276-973a-04dcca471b91?index=0",
       "videoName": "2f24d55d-b923-4276-973a-04dcca471b91",
       "videoUrl": "https://cdn.midjourney.com/video/2f24d55d-b923-4276-973a-04dcca471b91/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/d08d17fe-5c60-4738-8e1b-983dae31dfb4?index=0",
       "videoName": "d08d17fe-5c60-4738-8e1b-983dae31dfb4",
       "videoUrl": "https://cdn.midjourney.com/video/d08d17fe-5c60-4738-8e1b-983dae31dfb4/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/192d9c70-0280-43ce-abec-db392c9a3a9f?index=0",
       "videoName": "192d9c70-0280-43ce-abec-db392c9a3a9f",
       "videoUrl": "https://cdn.midjourney.com/video/192d9c70-0280-43ce-abec-db392c9a3a9f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/1cacd8fe-8f50-4294-bd64-bb8611a3bc81?index=0",
       "videoName": "1cacd8fe-8f50-4294-bd64-bb8611a3bc81",
       "videoUrl": "https://cdn.midjourney.com/video/1cacd8fe-8f50-4294-bd64-bb8611a3bc81/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/5decd6d6-c384-4433-9f02-44205e477652?index=0",
       "videoName": "5decd6d6-c384-4433-9f02-44205e477652",
       "videoUrl": "https://cdn.midjourney.com/video/5decd6d6-c384-4433-9f02-44205e477652/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/7e5e66a8-7ccd-4a42-8c0a-2779a3246b80?index=0",
       "videoName": "7e5e66a8-7ccd-4a42-8c0a-2779a3246b80",
       "videoUrl": "https://cdn.midjourney.com/video/7e5e66a8-7ccd-4a42-8c0a-2779a3246b80/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/57c53f7b-a39b-45e8-8461-667224df890a?index=0",
       "videoName": "57c53f7b-a39b-45e8-8461-667224df890a",
       "videoUrl": "https://cdn.midjourney.com/video/57c53f7b-a39b-45e8-8461-667224df890a/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/7f56e073-79b1-466a-90c0-23c4ce2e1507?index=0",
       "videoName": "7f56e073-79b1-466a-90c0-23c4ce2e1507",
       "videoUrl": "https://cdn.midjourney.com/video/7f56e073-79b1-466a-90c0-23c4ce2e1507/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/365f024f-5a1a-45a6-af53-e0378c33007b?index=0",
       "videoName": "365f024f-5a1a-45a6-af53-e0378c33007b",
       "videoUrl": "https://cdn.midjourney.com/video/365f024f-5a1a-45a6-af53-e0378c33007b/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/4f68750c-1bce-489e-8647-bff942fafcd7?index=0",
       "videoName": "4f68750c-1bce-489e-8647-bff942fafcd7",
       "videoUrl": "https://cdn.midjourney.com/video/4f68750c-1bce-489e-8647-bff942fafcd7/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/34b99d1b-2e34-4c63-98e0-4d051a9a7bbc?index=0",
       "videoName": "34b99d1b-2e34-4c63-98e0-4d051a9a7bbc",
       "videoUrl": "https://cdn.midjourney.com/video/34b99d1b-2e34-4c63-98e0-4d051a9a7bbc/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/0b8fe2ba-bc7c-4c89-94e0-edb75b0b963f?index=0",
       "videoName": "0b8fe2ba-bc7c-4c89-94e0-edb75b0b963f",
       "videoUrl": "https://cdn.midjourney.com/video/0b8fe2ba-bc7c-4c89-94e0-edb75b0b963f/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/49186b31-81a5-4ee1-a1c7-7b88caf9a1aa?index=0",
       "videoName": "49186b31-81a5-4ee1-a1c7-7b88caf9a1aa",
       "videoUrl": "https://cdn.midjourney.com/video/49186b31-81a5-4ee1-a1c7-7b88caf9a1aa/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/28f67da9-c90a-4e79-8bc7-2ca3abb96155?index=0",
       "videoName": "28f67da9-c90a-4e79-8bc7-2ca3abb96155",
       "videoUrl": "https://cdn.midjourney.com/video/28f67da9-c90a-4e79-8bc7-2ca3abb96155/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/f69e81ef-4d5b-4d40-bc7b-f05a4a964203?index=0",
       "videoName": "f69e81ef-4d5b-4d40-bc7b-f05a4a964203",
       "videoUrl": "https://cdn.midjourney.com/video/f69e81ef-4d5b-4d40-bc7b-f05a4a964203/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/6d1e93bc-14b7-4cb6-9cbc-ad01d8d95fee?index=0",
       "videoName": "6d1e93bc-14b7-4cb6-9cbc-ad01d8d95fee",
       "videoUrl": "https://cdn.midjourney.com/video/6d1e93bc-14b7-4cb6-9cbc-ad01d8d95fee/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/66f38c2f-bf25-4109-800c-77b2b03719cb?index=0",
       "videoName": "66f38c2f-bf25-4109-800c-77b2b03719cb",
       "videoUrl": "https://cdn.midjourney.com/video/66f38c2f-bf25-4109-800c-77b2b03719cb/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/0ae11ed9-3e14-428a-9bfa-7bd7cd8354c2?index=0",
       "videoName": "0ae11ed9-3e14-428a-9bfa-7bd7cd8354c2",
       "videoUrl": "https://cdn.midjourney.com/video/0ae11ed9-3e14-428a-9bfa-7bd7cd8354c2/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/f7ea6126-7c1a-4f87-be54-5587370b14b6?index=0",
       "videoName": "f7ea6126-7c1a-4f87-be54-5587370b14b6",
       "videoUrl": "https://cdn.midjourney.com/video/f7ea6126-7c1a-4f87-be54-5587370b14b6/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/42ff35c4-68b5-4710-b480-5272fca6e16a?index=0",
       "videoName": "42ff35c4-68b5-4710-b480-5272fca6e16a",
       "videoUrl": "https://cdn.midjourney.com/video/42ff35c4-68b5-4710-b480-5272fca6e16a/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/458a7e96-0648-4a55-985a-537ecdfdf1c7?index=0",
       "videoName": "458a7e96-0648-4a55-985a-537ecdfdf1c7",
       "videoUrl": "https://cdn.midjourney.com/video/458a7e96-0648-4a55-985a-537ecdfdf1c7/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/fd6dc2a3-ddb8-43e1-b0ea-4a224288ef45?index=0",
       "videoName": "fd6dc2a3-ddb8-43e1-b0ea-4a224288ef45",
       "videoUrl": "https://cdn.midjourney.com/video/fd6dc2a3-ddb8-43e1-b0ea-4a224288ef45/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/a643aea7-6490-4d84-80b0-f2c70fc28de1?index=0",
       "videoName": "a643aea7-6490-4d84-80b0-f2c70fc28de1",
       "videoUrl": "https://cdn.midjourney.com/video/a643aea7-6490-4d84-80b0-f2c70fc28de1/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/41678b57-d5ff-4a1b-94bc-7d43dca7518a?index=0",
       "videoName": "41678b57-d5ff-4a1b-94bc-7d43dca7518a",
       "videoUrl": "https://cdn.midjourney.com/video/41678b57-d5ff-4a1b-94bc-7d43dca7518a/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/108224a7-a13c-452c-b270-186aba1e7705?index=0",
       "videoName": "108224a7-a13c-452c-b270-186aba1e7705",
       "videoUrl": "https://cdn.midjourney.com/video/108224a7-a13c-452c-b270-186aba1e7705/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/269a4038-2558-4488-b0c2-5ea1f563f56d?index=0",
       "videoName": "269a4038-2558-4488-b0c2-5ea1f563f56d",
       "videoUrl": "https://cdn.midjourney.com/video/269a4038-2558-4488-b0c2-5ea1f563f56d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/1d0da33c-13cf-436a-a4ab-e39bbe25312e?index=0",
       "videoName": "1d0da33c-13cf-436a-a4ab-e39bbe25312e",
       "videoUrl": "https://cdn.midjourney.com/video/1d0da33c-13cf-436a-a4ab-e39bbe25312e/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/45fe499e-3193-428d-b12a-50f4a2c173c8?index=0",
       "videoName": "45fe499e-3193-428d-b12a-50f4a2c173c8",
       "videoUrl": "https://cdn.midjourney.com/video/45fe499e-3193-428d-b12a-50f4a2c173c8/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/c7d29be7-095c-4f54-9685-421d4edf43c9?index=0",
       "videoName": "c7d29be7-095c-4f54-9685-421d4edf43c9",
       "videoUrl": "https://cdn.midjourney.com/video/c7d29be7-095c-4f54-9685-421d4edf43c9/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/98325e5b-bd83-4178-bae7-b479363ca00e?index=0",
       "videoName": "98325e5b-bd83-4178-bae7-b479363ca00e",
       "videoUrl": "https://cdn.midjourney.com/video/98325e5b-bd83-4178-bae7-b479363ca00e/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/caf88d7a-5c13-40a2-a916-09cc40213736?index=0",
       "videoName": "caf88d7a-5c13-40a2-a916-09cc40213736",
       "videoUrl": "https://cdn.midjourney.com/video/caf88d7a-5c13-40a2-a916-09cc40213736/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/45898a74-3b54-49c8-81e3-7ce9d08101a4?index=0",
       "videoName": "45898a74-3b54-49c8-81e3-7ce9d08101a4",
       "videoUrl": "https://cdn.midjourney.com/video/45898a74-3b54-49c8-81e3-7ce9d08101a4/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/cc32accf-dd52-4814-9bab-75f9f46c0354?index=0",
       "videoName": "cc32accf-dd52-4814-9bab-75f9f46c0354",
       "videoUrl": "https://cdn.midjourney.com/video/cc32accf-dd52-4814-9bab-75f9f46c0354/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/b16f28f2-d48d-4f2d-bfcc-b591da710a95?index=0",
       "videoName": "b16f28f2-d48d-4f2d-bfcc-b591da710a95",
       "videoUrl": "https://cdn.midjourney.com/video/b16f28f2-d48d-4f2d-bfcc-b591da710a95/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/8174f12e-70f2-407e-9727-c6321ac3ea14?index=0",
       "videoName": "8174f12e-70f2-407e-9727-c6321ac3ea14",
       "videoUrl": "https://cdn.midjourney.com/video/8174f12e-70f2-407e-9727-c6321ac3ea14/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/d96a8817-18bc-461a-9ff2-ff291980ca0d?index=0",
       "videoName": "d96a8817-18bc-461a-9ff2-ff291980ca0d",
       "videoUrl": "https://cdn.midjourney.com/video/d96a8817-18bc-461a-9ff2-ff291980ca0d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/63f27dda-9c59-4434-ba0c-f6f2516271c1?index=0",
       "videoName": "63f27dda-9c59-4434-ba0c-f6f2516271c1",
       "videoUrl": "https://cdn.midjourney.com/video/63f27dda-9c59-4434-ba0c-f6f2516271c1/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/b42c5a77-6548-4408-9f08-b5b16b632d1d?index=0",
       "videoName": "b42c5a77-6548-4408-9f08-b5b16b632d1d",
       "videoUrl": "https://cdn.midjourney.com/video/b42c5a77-6548-4408-9f08-b5b16b632d1d/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/0f892266-a966-4f08-a14a-ce61289a8d6b?index=0",
       "videoName": "0f892266-a966-4f08-a14a-ce61289a8d6b",
       "videoUrl": "https://cdn.midjourney.com/video/0f892266-a966-4f08-a14a-ce61289a8d6b/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/7d7af156-7d87-4352-ac71-a4d43fd5c132?index=0",
       "videoName": "7d7af156-7d87-4352-ac71-a4d43fd5c132",
       "videoUrl": "https://cdn.midjourney.com/video/7d7af156-7d87-4352-ac71-a4d43fd5c132/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/742a5913-b178-413f-aea1-7c816c2caa93?index=0",
       "videoName": "742a5913-b178-413f-aea1-7c816c2caa93",
       "videoUrl": "https://cdn.midjourney.com/video/742a5913-b178-413f-aea1-7c816c2caa93/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/f3156504-d411-4bb3-a827-eae79aff7baa?index=0",
       "videoName": "f3156504-d411-4bb3-a827-eae79aff7baa",
       "videoUrl": "https://cdn.midjourney.com/video/f3156504-d411-4bb3-a827-eae79aff7baa/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/2e31df0a-87c8-407e-a6b4-99e6745d2093?index=0",
       "videoName": "2e31df0a-87c8-407e-a6b4-99e6745d2093",
       "videoUrl": "https://cdn.midjourney.com/video/2e31df0a-87c8-407e-a6b4-99e6745d2093/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/731d16d8-684b-4994-8612-4b98f533b4f1?index=0",
       "videoName": "731d16d8-684b-4994-8612-4b98f533b4f1",
       "videoUrl": "https://cdn.midjourney.com/video/731d16d8-684b-4994-8612-4b98f533b4f1/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/99f547b8-3ac8-48a0-9e91-c47ae15bcaf8?index=0",
       "videoName": "99f547b8-3ac8-48a0-9e91-c47ae15bcaf8",
       "videoUrl": "https://cdn.midjourney.com/video/99f547b8-3ac8-48a0-9e91-c47ae15bcaf8/0.mp4"
     },
     {
-      "downloaded": false,
+      "downloaded": true,
       "pageUrl": "https://www.midjourney.com/jobs/52b7cfc2-adb9-4a87-84e0-0fd36cfb6086?index=0",
       "videoName": "52b7cfc2-adb9-4a87-84e0-0fd36cfb6086",
       "videoUrl": "https://cdn.midjourney.com/video/52b7cfc2-adb9-4a87-84e0-0fd36cfb6086/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/2b43470d-7841-4123-8767-2c2d48f0e112?index=0",
+      "videoName": "2b43470d-7841-4123-8767-2c2d48f0e112",
+      "videoUrl": "https://cdn.midjourney.com/video/2b43470d-7841-4123-8767-2c2d48f0e112/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/52dd67ff-5c7d-4c94-8ea4-de49e5448114?index=0",
+      "videoName": "52dd67ff-5c7d-4c94-8ea4-de49e5448114",
+      "videoUrl": "https://cdn.midjourney.com/video/52dd67ff-5c7d-4c94-8ea4-de49e5448114/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/2ab87715-f812-44df-ac48-1dcb116c9aa3?index=0",
+      "videoName": "2ab87715-f812-44df-ac48-1dcb116c9aa3",
+      "videoUrl": "https://cdn.midjourney.com/video/2ab87715-f812-44df-ac48-1dcb116c9aa3/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/0f06a6aa-41dc-4827-9695-d4119fb72209?index=0",
+      "videoName": "0f06a6aa-41dc-4827-9695-d4119fb72209",
+      "videoUrl": "https://cdn.midjourney.com/video/0f06a6aa-41dc-4827-9695-d4119fb72209/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/c60ad4c6-e5d3-4ddd-916e-eb2515709ade?index=0",
+      "videoName": "c60ad4c6-e5d3-4ddd-916e-eb2515709ade",
+      "videoUrl": "https://cdn.midjourney.com/video/c60ad4c6-e5d3-4ddd-916e-eb2515709ade/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/96123f0e-4ea2-4ec0-a34a-5a3624c905a0?index=0",
+      "videoName": "96123f0e-4ea2-4ec0-a34a-5a3624c905a0",
+      "videoUrl": "https://cdn.midjourney.com/video/96123f0e-4ea2-4ec0-a34a-5a3624c905a0/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/9588db63-4a9e-482a-bb20-cb417e840e4c?index=0",
+      "videoName": "9588db63-4a9e-482a-bb20-cb417e840e4c",
+      "videoUrl": "https://cdn.midjourney.com/video/9588db63-4a9e-482a-bb20-cb417e840e4c/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/5f85cfa4-41ca-41fa-b071-5ccacf34309e?index=0",
+      "videoName": "5f85cfa4-41ca-41fa-b071-5ccacf34309e",
+      "videoUrl": "https://cdn.midjourney.com/video/5f85cfa4-41ca-41fa-b071-5ccacf34309e/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/6529f91a-b92a-4e44-9a09-0ecf771e04e8?index=0",
+      "videoName": "6529f91a-b92a-4e44-9a09-0ecf771e04e8",
+      "videoUrl": "https://cdn.midjourney.com/video/6529f91a-b92a-4e44-9a09-0ecf771e04e8/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/8e8665e5-04c1-4bb9-b0e8-b8b202bb6eb8?index=0",
+      "videoName": "8e8665e5-04c1-4bb9-b0e8-b8b202bb6eb8",
+      "videoUrl": "https://cdn.midjourney.com/video/8e8665e5-04c1-4bb9-b0e8-b8b202bb6eb8/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/0326ed04-21e7-4403-917a-bce9c0fa6e3c?index=0",
+      "videoName": "0326ed04-21e7-4403-917a-bce9c0fa6e3c",
+      "videoUrl": "https://cdn.midjourney.com/video/0326ed04-21e7-4403-917a-bce9c0fa6e3c/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/18585e85-94e4-43cd-bfd4-a26c10d5cce1?index=0",
+      "videoName": "18585e85-94e4-43cd-bfd4-a26c10d5cce1",
+      "videoUrl": "https://cdn.midjourney.com/video/18585e85-94e4-43cd-bfd4-a26c10d5cce1/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/9a6a0830-0fd8-459b-8feb-243879a4c254?index=0",
+      "videoName": "9a6a0830-0fd8-459b-8feb-243879a4c254",
+      "videoUrl": "https://cdn.midjourney.com/video/9a6a0830-0fd8-459b-8feb-243879a4c254/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/8de197f6-a8ff-4bc2-be95-ed15bac7157d?index=0",
+      "videoName": "8de197f6-a8ff-4bc2-be95-ed15bac7157d",
+      "videoUrl": "https://cdn.midjourney.com/video/8de197f6-a8ff-4bc2-be95-ed15bac7157d/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/82f43299-165e-450a-8342-6b3ea2a05f82?index=0",
+      "videoName": "82f43299-165e-450a-8342-6b3ea2a05f82",
+      "videoUrl": "https://cdn.midjourney.com/video/82f43299-165e-450a-8342-6b3ea2a05f82/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/c0d603c3-95e1-4b0d-8996-9e9b702f8646?index=0",
+      "videoName": "c0d603c3-95e1-4b0d-8996-9e9b702f8646",
+      "videoUrl": "https://cdn.midjourney.com/video/c0d603c3-95e1-4b0d-8996-9e9b702f8646/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/eeafae2e-b096-45b6-a43b-aa5e3546973d?index=0",
+      "videoName": "eeafae2e-b096-45b6-a43b-aa5e3546973d",
+      "videoUrl": "https://cdn.midjourney.com/video/eeafae2e-b096-45b6-a43b-aa5e3546973d/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/524008fd-5f2b-4785-a8bd-55c109a3feb4?index=0",
+      "videoName": "524008fd-5f2b-4785-a8bd-55c109a3feb4",
+      "videoUrl": "https://cdn.midjourney.com/video/524008fd-5f2b-4785-a8bd-55c109a3feb4/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/7042c644-22ff-4e67-b281-9a9e737808e8?index=0",
+      "videoName": "7042c644-22ff-4e67-b281-9a9e737808e8",
+      "videoUrl": "https://cdn.midjourney.com/video/7042c644-22ff-4e67-b281-9a9e737808e8/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/08c10022-aabe-42a0-b03c-0d29a4896d0c?index=0",
+      "videoName": "08c10022-aabe-42a0-b03c-0d29a4896d0c",
+      "videoUrl": "https://cdn.midjourney.com/video/08c10022-aabe-42a0-b03c-0d29a4896d0c/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/0f86e059-2025-4b90-b50e-12c36a7c7555?index=0",
+      "videoName": "0f86e059-2025-4b90-b50e-12c36a7c7555",
+      "videoUrl": "https://cdn.midjourney.com/video/0f86e059-2025-4b90-b50e-12c36a7c7555/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/ba97a016-203e-48ec-b0f2-f9230106cae0?index=0",
+      "videoName": "ba97a016-203e-48ec-b0f2-f9230106cae0",
+      "videoUrl": "https://cdn.midjourney.com/video/ba97a016-203e-48ec-b0f2-f9230106cae0/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/0ec93b9c-bab1-49d9-9804-3afd160f1fad?index=0",
+      "videoName": "0ec93b9c-bab1-49d9-9804-3afd160f1fad",
+      "videoUrl": "https://cdn.midjourney.com/video/0ec93b9c-bab1-49d9-9804-3afd160f1fad/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/a205669f-72cf-4ba3-8ee4-154a34800308?index=0",
+      "videoName": "a205669f-72cf-4ba3-8ee4-154a34800308",
+      "videoUrl": "https://cdn.midjourney.com/video/a205669f-72cf-4ba3-8ee4-154a34800308/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/a0294651-84f2-4eb4-aba6-034b405be9c7?index=0",
+      "videoName": "a0294651-84f2-4eb4-aba6-034b405be9c7",
+      "videoUrl": "https://cdn.midjourney.com/video/a0294651-84f2-4eb4-aba6-034b405be9c7/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/c65d6d89-31e4-4e51-ad5f-40c9f9ae8a77?index=0",
+      "videoName": "c65d6d89-31e4-4e51-ad5f-40c9f9ae8a77",
+      "videoUrl": "https://cdn.midjourney.com/video/c65d6d89-31e4-4e51-ad5f-40c9f9ae8a77/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/7a066303-1df2-4691-b858-1827795ebad0?index=0",
+      "videoName": "7a066303-1df2-4691-b858-1827795ebad0",
+      "videoUrl": "https://cdn.midjourney.com/video/7a066303-1df2-4691-b858-1827795ebad0/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/750f0bb1-2c0b-4906-824a-502624b133a8?index=0",
+      "videoName": "750f0bb1-2c0b-4906-824a-502624b133a8",
+      "videoUrl": "https://cdn.midjourney.com/video/750f0bb1-2c0b-4906-824a-502624b133a8/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/ac27363b-aa47-4b89-96b7-91ad2c38dc25?index=0",
+      "videoName": "ac27363b-aa47-4b89-96b7-91ad2c38dc25",
+      "videoUrl": "https://cdn.midjourney.com/video/ac27363b-aa47-4b89-96b7-91ad2c38dc25/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/2db27083-d9f7-4772-8461-fef5a1f5bb94?index=0",
+      "videoName": "2db27083-d9f7-4772-8461-fef5a1f5bb94",
+      "videoUrl": "https://cdn.midjourney.com/video/2db27083-d9f7-4772-8461-fef5a1f5bb94/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/e7fb2fb7-5a2c-496c-8d58-e179e54b2dc0?index=0",
+      "videoName": "e7fb2fb7-5a2c-496c-8d58-e179e54b2dc0",
+      "videoUrl": "https://cdn.midjourney.com/video/e7fb2fb7-5a2c-496c-8d58-e179e54b2dc0/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/2f3e913a-438c-427c-8fb0-298182310df8?index=0",
+      "videoName": "2f3e913a-438c-427c-8fb0-298182310df8",
+      "videoUrl": "https://cdn.midjourney.com/video/2f3e913a-438c-427c-8fb0-298182310df8/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/8bfcd878-7de5-4e0b-93e5-e78450c69cbd?index=0",
+      "videoName": "8bfcd878-7de5-4e0b-93e5-e78450c69cbd",
+      "videoUrl": "https://cdn.midjourney.com/video/8bfcd878-7de5-4e0b-93e5-e78450c69cbd/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/ff0ae251-9ac5-43dc-8d2b-fefc8c66d854?index=0",
+      "videoName": "ff0ae251-9ac5-43dc-8d2b-fefc8c66d854",
+      "videoUrl": "https://cdn.midjourney.com/video/ff0ae251-9ac5-43dc-8d2b-fefc8c66d854/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/3916a38c-21e7-4ed5-8d41-1d2388b864c4?index=0",
+      "videoName": "3916a38c-21e7-4ed5-8d41-1d2388b864c4",
+      "videoUrl": "https://cdn.midjourney.com/video/3916a38c-21e7-4ed5-8d41-1d2388b864c4/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/2b214aeb-cbfe-4be3-b73f-f822f7ae249c?index=0",
+      "videoName": "2b214aeb-cbfe-4be3-b73f-f822f7ae249c",
+      "videoUrl": "https://cdn.midjourney.com/video/2b214aeb-cbfe-4be3-b73f-f822f7ae249c/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/9ba81f72-a021-4f2f-a0c6-ab30065c66ae?index=0",
+      "videoName": "9ba81f72-a021-4f2f-a0c6-ab30065c66ae",
+      "videoUrl": "https://cdn.midjourney.com/video/9ba81f72-a021-4f2f-a0c6-ab30065c66ae/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/798dfc7f-9079-4947-b4f5-0dda7844afe6?index=0",
+      "videoName": "798dfc7f-9079-4947-b4f5-0dda7844afe6",
+      "videoUrl": "https://cdn.midjourney.com/video/798dfc7f-9079-4947-b4f5-0dda7844afe6/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/53c6358b-5968-4ac1-b9cf-dd183ce2d4e4?index=0",
+      "videoName": "53c6358b-5968-4ac1-b9cf-dd183ce2d4e4",
+      "videoUrl": "https://cdn.midjourney.com/video/53c6358b-5968-4ac1-b9cf-dd183ce2d4e4/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/4baf0dfa-05b4-4072-ace6-4c2a85d86e35?index=0",
+      "videoName": "4baf0dfa-05b4-4072-ace6-4c2a85d86e35",
+      "videoUrl": "https://cdn.midjourney.com/video/4baf0dfa-05b4-4072-ace6-4c2a85d86e35/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/a09e7461-3e5f-488e-bc08-a5950adccc61?index=0",
+      "videoName": "a09e7461-3e5f-488e-bc08-a5950adccc61",
+      "videoUrl": "https://cdn.midjourney.com/video/a09e7461-3e5f-488e-bc08-a5950adccc61/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/9a7c0e65-d7c3-4f26-9c3e-01352791ba99?index=0",
+      "videoName": "9a7c0e65-d7c3-4f26-9c3e-01352791ba99",
+      "videoUrl": "https://cdn.midjourney.com/video/9a7c0e65-d7c3-4f26-9c3e-01352791ba99/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/2cc93549-7534-4840-991d-f86e65af57c2?index=0",
+      "videoName": "2cc93549-7534-4840-991d-f86e65af57c2",
+      "videoUrl": "https://cdn.midjourney.com/video/2cc93549-7534-4840-991d-f86e65af57c2/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/a9f03ca3-676a-4542-92b5-2b35837fdb66?index=0",
+      "videoName": "a9f03ca3-676a-4542-92b5-2b35837fdb66",
+      "videoUrl": "https://cdn.midjourney.com/video/a9f03ca3-676a-4542-92b5-2b35837fdb66/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/e0e887e2-a08f-4cda-936f-efc5b20ca3a2?index=0",
+      "videoName": "e0e887e2-a08f-4cda-936f-efc5b20ca3a2",
+      "videoUrl": "https://cdn.midjourney.com/video/e0e887e2-a08f-4cda-936f-efc5b20ca3a2/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/2432d9b7-df35-41ae-8e53-44129d98acbd?index=0",
+      "videoName": "2432d9b7-df35-41ae-8e53-44129d98acbd",
+      "videoUrl": "https://cdn.midjourney.com/video/2432d9b7-df35-41ae-8e53-44129d98acbd/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/ec9d5821-a30b-4c7c-8008-80913a44a0ca?index=0",
+      "videoName": "ec9d5821-a30b-4c7c-8008-80913a44a0ca",
+      "videoUrl": "https://cdn.midjourney.com/video/ec9d5821-a30b-4c7c-8008-80913a44a0ca/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/675ba43a-3a3f-41a7-b96f-94d3714d5e66?index=0",
+      "videoName": "675ba43a-3a3f-41a7-b96f-94d3714d5e66",
+      "videoUrl": "https://cdn.midjourney.com/video/675ba43a-3a3f-41a7-b96f-94d3714d5e66/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/658e5844-daeb-415c-9156-89162e7cfa2c?index=0",
+      "videoName": "658e5844-daeb-415c-9156-89162e7cfa2c",
+      "videoUrl": "https://cdn.midjourney.com/video/658e5844-daeb-415c-9156-89162e7cfa2c/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/ede3eb32-6f90-45b0-a149-05367af2d828?index=0",
+      "videoName": "ede3eb32-6f90-45b0-a149-05367af2d828",
+      "videoUrl": "https://cdn.midjourney.com/video/ede3eb32-6f90-45b0-a149-05367af2d828/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/b189cbaf-172d-40df-aef7-d29d2dd48aef?index=0",
+      "videoName": "b189cbaf-172d-40df-aef7-d29d2dd48aef",
+      "videoUrl": "https://cdn.midjourney.com/video/b189cbaf-172d-40df-aef7-d29d2dd48aef/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/b492a78a-a4b1-4064-9b27-0f2b6eb5e74f?index=0",
+      "videoName": "b492a78a-a4b1-4064-9b27-0f2b6eb5e74f",
+      "videoUrl": "https://cdn.midjourney.com/video/b492a78a-a4b1-4064-9b27-0f2b6eb5e74f/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/66bd0f39-3304-4d70-8d85-f82eb1c4638d?index=0",
+      "videoName": "66bd0f39-3304-4d70-8d85-f82eb1c4638d",
+      "videoUrl": "https://cdn.midjourney.com/video/66bd0f39-3304-4d70-8d85-f82eb1c4638d/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/a32b2056-6a24-47de-9395-78b18e32a9aa?index=0",
+      "videoName": "a32b2056-6a24-47de-9395-78b18e32a9aa",
+      "videoUrl": "https://cdn.midjourney.com/video/a32b2056-6a24-47de-9395-78b18e32a9aa/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/957ce270-e88a-4291-9059-ae01ed946f7f?index=0",
+      "videoName": "957ce270-e88a-4291-9059-ae01ed946f7f",
+      "videoUrl": "https://cdn.midjourney.com/video/957ce270-e88a-4291-9059-ae01ed946f7f/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/066c5e14-69d3-420b-a421-dc65af65bfd8?index=0",
+      "videoName": "066c5e14-69d3-420b-a421-dc65af65bfd8",
+      "videoUrl": "https://cdn.midjourney.com/video/066c5e14-69d3-420b-a421-dc65af65bfd8/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/fac65b49-c7c8-453f-8dc1-60bb7e580f0f?index=0",
+      "videoName": "fac65b49-c7c8-453f-8dc1-60bb7e580f0f",
+      "videoUrl": "https://cdn.midjourney.com/video/fac65b49-c7c8-453f-8dc1-60bb7e580f0f/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/70035f75-1867-4d9b-97c1-986df86780a0?index=0",
+      "videoName": "70035f75-1867-4d9b-97c1-986df86780a0",
+      "videoUrl": "https://cdn.midjourney.com/video/70035f75-1867-4d9b-97c1-986df86780a0/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/fb1e8ffb-987e-4100-8227-489df994281c?index=0",
+      "videoName": "fb1e8ffb-987e-4100-8227-489df994281c",
+      "videoUrl": "https://cdn.midjourney.com/video/fb1e8ffb-987e-4100-8227-489df994281c/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/e3d23154-2941-4a8f-94a3-39ff0c972b2b?index=0",
+      "videoName": "e3d23154-2941-4a8f-94a3-39ff0c972b2b",
+      "videoUrl": "https://cdn.midjourney.com/video/e3d23154-2941-4a8f-94a3-39ff0c972b2b/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/e7bd8349-da65-4b12-acc5-8a00c19fa656?index=0",
+      "videoName": "e7bd8349-da65-4b12-acc5-8a00c19fa656",
+      "videoUrl": "https://cdn.midjourney.com/video/e7bd8349-da65-4b12-acc5-8a00c19fa656/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/bd7adee9-584a-4ade-8629-d630730322a9?index=0",
+      "videoName": "bd7adee9-584a-4ade-8629-d630730322a9",
+      "videoUrl": "https://cdn.midjourney.com/video/bd7adee9-584a-4ade-8629-d630730322a9/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/9ce75860-a9ca-42cc-b3a9-bffb177cb72c?index=0",
+      "videoName": "9ce75860-a9ca-42cc-b3a9-bffb177cb72c",
+      "videoUrl": "https://cdn.midjourney.com/video/9ce75860-a9ca-42cc-b3a9-bffb177cb72c/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/71f2327f-1032-473c-a039-24fba68cdf6c?index=0",
+      "videoName": "71f2327f-1032-473c-a039-24fba68cdf6c",
+      "videoUrl": "https://cdn.midjourney.com/video/71f2327f-1032-473c-a039-24fba68cdf6c/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/54513535-de5c-490e-8153-ca052688043c?index=0",
+      "videoName": "54513535-de5c-490e-8153-ca052688043c",
+      "videoUrl": "https://cdn.midjourney.com/video/54513535-de5c-490e-8153-ca052688043c/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/31c01ef0-63c9-4977-bb2f-fab130ec0844?index=0",
+      "videoName": "31c01ef0-63c9-4977-bb2f-fab130ec0844",
+      "videoUrl": "https://cdn.midjourney.com/video/31c01ef0-63c9-4977-bb2f-fab130ec0844/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/1382d3b0-4e72-486f-86f9-d64f12983f7d?index=0",
+      "videoName": "1382d3b0-4e72-486f-86f9-d64f12983f7d",
+      "videoUrl": "https://cdn.midjourney.com/video/1382d3b0-4e72-486f-86f9-d64f12983f7d/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/69a7958a-f4c9-4cb4-aea1-02985721f4a8?index=0",
+      "videoName": "69a7958a-f4c9-4cb4-aea1-02985721f4a8",
+      "videoUrl": "https://cdn.midjourney.com/video/69a7958a-f4c9-4cb4-aea1-02985721f4a8/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/d1941b27-1d27-4dfa-bf24-d83229821eef?index=0",
+      "videoName": "d1941b27-1d27-4dfa-bf24-d83229821eef",
+      "videoUrl": "https://cdn.midjourney.com/video/d1941b27-1d27-4dfa-bf24-d83229821eef/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/4fbaac10-abd0-4133-8c38-cb25e2f48ab1?index=0",
+      "videoName": "4fbaac10-abd0-4133-8c38-cb25e2f48ab1",
+      "videoUrl": "https://cdn.midjourney.com/video/4fbaac10-abd0-4133-8c38-cb25e2f48ab1/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/2c7544ee-082f-43c3-8f9d-c8ee3d73204f?index=0",
+      "videoName": "2c7544ee-082f-43c3-8f9d-c8ee3d73204f",
+      "videoUrl": "https://cdn.midjourney.com/video/2c7544ee-082f-43c3-8f9d-c8ee3d73204f/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/81a4f3e7-011f-480b-b92e-05468c0b60f4?index=0",
+      "videoName": "81a4f3e7-011f-480b-b92e-05468c0b60f4",
+      "videoUrl": "https://cdn.midjourney.com/video/81a4f3e7-011f-480b-b92e-05468c0b60f4/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/ed004742-bea2-449f-aa82-e80d437f7dc2?index=0",
+      "videoName": "ed004742-bea2-449f-aa82-e80d437f7dc2",
+      "videoUrl": "https://cdn.midjourney.com/video/ed004742-bea2-449f-aa82-e80d437f7dc2/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/daecd607-1892-4ae4-9f5e-1e97856d6cfd?index=0",
+      "videoName": "daecd607-1892-4ae4-9f5e-1e97856d6cfd",
+      "videoUrl": "https://cdn.midjourney.com/video/daecd607-1892-4ae4-9f5e-1e97856d6cfd/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/17d755fa-a1ee-4338-9fd9-efc88cc3d8ca?index=0",
+      "videoName": "17d755fa-a1ee-4338-9fd9-efc88cc3d8ca",
+      "videoUrl": "https://cdn.midjourney.com/video/17d755fa-a1ee-4338-9fd9-efc88cc3d8ca/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/6c1e7393-4c59-4fd1-b994-5ef6cd92aa52?index=0",
+      "videoName": "6c1e7393-4c59-4fd1-b994-5ef6cd92aa52",
+      "videoUrl": "https://cdn.midjourney.com/video/6c1e7393-4c59-4fd1-b994-5ef6cd92aa52/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/cad05d91-4ee8-4807-a8a8-f883262999e2?index=0",
+      "videoName": "cad05d91-4ee8-4807-a8a8-f883262999e2",
+      "videoUrl": "https://cdn.midjourney.com/video/cad05d91-4ee8-4807-a8a8-f883262999e2/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/a130e0dc-6f39-466a-ad1c-a97027e28984?index=0",
+      "videoName": "a130e0dc-6f39-466a-ad1c-a97027e28984",
+      "videoUrl": "https://cdn.midjourney.com/video/a130e0dc-6f39-466a-ad1c-a97027e28984/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/917d5c40-a66d-4896-b179-982a04717cdd?index=0",
+      "videoName": "917d5c40-a66d-4896-b179-982a04717cdd",
+      "videoUrl": "https://cdn.midjourney.com/video/917d5c40-a66d-4896-b179-982a04717cdd/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/efc804bb-fbe0-42b3-96c5-99e2614b4e31?index=0",
+      "videoName": "efc804bb-fbe0-42b3-96c5-99e2614b4e31",
+      "videoUrl": "https://cdn.midjourney.com/video/efc804bb-fbe0-42b3-96c5-99e2614b4e31/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/b47784fb-ecc7-4f34-9afc-9a30be01fe15?index=0",
+      "videoName": "b47784fb-ecc7-4f34-9afc-9a30be01fe15",
+      "videoUrl": "https://cdn.midjourney.com/video/b47784fb-ecc7-4f34-9afc-9a30be01fe15/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/649daad9-3831-4859-ae2d-b9ddae1a779a?index=0",
+      "videoName": "649daad9-3831-4859-ae2d-b9ddae1a779a",
+      "videoUrl": "https://cdn.midjourney.com/video/649daad9-3831-4859-ae2d-b9ddae1a779a/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/feb1e0ec-0298-477d-9cb9-bf92646ad0bb?index=0",
+      "videoName": "feb1e0ec-0298-477d-9cb9-bf92646ad0bb",
+      "videoUrl": "https://cdn.midjourney.com/video/feb1e0ec-0298-477d-9cb9-bf92646ad0bb/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/3ede7ab0-5f69-466d-a42f-62cc574568bb?index=0",
+      "videoName": "3ede7ab0-5f69-466d-a42f-62cc574568bb",
+      "videoUrl": "https://cdn.midjourney.com/video/3ede7ab0-5f69-466d-a42f-62cc574568bb/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/7dd8fd14-2988-47ca-8ebf-cf586b727881?index=0",
+      "videoName": "7dd8fd14-2988-47ca-8ebf-cf586b727881",
+      "videoUrl": "https://cdn.midjourney.com/video/7dd8fd14-2988-47ca-8ebf-cf586b727881/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/556f21c9-beca-4bd7-941a-49fe512c9054?index=0",
+      "videoName": "556f21c9-beca-4bd7-941a-49fe512c9054",
+      "videoUrl": "https://cdn.midjourney.com/video/556f21c9-beca-4bd7-941a-49fe512c9054/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/0f0598ad-7993-4681-b2b5-d490ad5925ef?index=0",
+      "videoName": "0f0598ad-7993-4681-b2b5-d490ad5925ef",
+      "videoUrl": "https://cdn.midjourney.com/video/0f0598ad-7993-4681-b2b5-d490ad5925ef/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/0a651390-99f8-4dec-b584-828a543256ee?index=0",
+      "videoName": "0a651390-99f8-4dec-b584-828a543256ee",
+      "videoUrl": "https://cdn.midjourney.com/video/0a651390-99f8-4dec-b584-828a543256ee/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/7378ffcb-fa3e-4f2f-afc3-3a05ab527ce4?index=0",
+      "videoName": "7378ffcb-fa3e-4f2f-afc3-3a05ab527ce4",
+      "videoUrl": "https://cdn.midjourney.com/video/7378ffcb-fa3e-4f2f-afc3-3a05ab527ce4/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/c52d7ece-9de7-48b9-b8d7-f16dce5eb427?index=0",
+      "videoName": "c52d7ece-9de7-48b9-b8d7-f16dce5eb427",
+      "videoUrl": "https://cdn.midjourney.com/video/c52d7ece-9de7-48b9-b8d7-f16dce5eb427/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/eeddb3f9-0766-4fdc-874f-dc8564353416?index=0",
+      "videoName": "eeddb3f9-0766-4fdc-874f-dc8564353416",
+      "videoUrl": "https://cdn.midjourney.com/video/eeddb3f9-0766-4fdc-874f-dc8564353416/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/3b378d99-eff4-4e32-96b2-72e0ef25ef8a?index=0",
+      "videoName": "3b378d99-eff4-4e32-96b2-72e0ef25ef8a",
+      "videoUrl": "https://cdn.midjourney.com/video/3b378d99-eff4-4e32-96b2-72e0ef25ef8a/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/624d8795-c942-469b-9380-acda8b1d9c54?index=0",
+      "videoName": "624d8795-c942-469b-9380-acda8b1d9c54",
+      "videoUrl": "https://cdn.midjourney.com/video/624d8795-c942-469b-9380-acda8b1d9c54/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/1c6582f5-460e-4ea9-bddf-c8e455ec7108?index=0",
+      "videoName": "1c6582f5-460e-4ea9-bddf-c8e455ec7108",
+      "videoUrl": "https://cdn.midjourney.com/video/1c6582f5-460e-4ea9-bddf-c8e455ec7108/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/6b0e0810-20a6-4c03-a49b-9873d3bdf243?index=0",
+      "videoName": "6b0e0810-20a6-4c03-a49b-9873d3bdf243",
+      "videoUrl": "https://cdn.midjourney.com/video/6b0e0810-20a6-4c03-a49b-9873d3bdf243/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/98d20e2f-f5fe-4316-9147-ca3f36cccccc?index=0",
+      "videoName": "98d20e2f-f5fe-4316-9147-ca3f36cccccc",
+      "videoUrl": "https://cdn.midjourney.com/video/98d20e2f-f5fe-4316-9147-ca3f36cccccc/0.mp4"
+    },
+    {
+      "downloaded": true,
+      "pageUrl": "https://www.midjourney.com/jobs/9e5ee929-6040-429b-ba50-8ca46b849a99?index=0",
+      "videoName": "9e5ee929-6040-429b-ba50-8ca46b849a99",
+      "videoUrl": "https://cdn.midjourney.com/video/9e5ee929-6040-429b-ba50-8ca46b849a99/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/bef8ef0f-56c5-4dcd-956b-c08be401ce62?index=0",
+      "videoName": "bef8ef0f-56c5-4dcd-956b-c08be401ce62",
+      "videoUrl": "https://cdn.midjourney.com/video/bef8ef0f-56c5-4dcd-956b-c08be401ce62/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/879e4d83-68e5-41c4-91a9-4e69dd9c2ced?index=0",
+      "videoName": "879e4d83-68e5-41c4-91a9-4e69dd9c2ced",
+      "videoUrl": "https://cdn.midjourney.com/video/879e4d83-68e5-41c4-91a9-4e69dd9c2ced/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/2ffab06e-c621-478c-b8cd-30371af9d06c?index=0",
+      "videoName": "2ffab06e-c621-478c-b8cd-30371af9d06c",
+      "videoUrl": "https://cdn.midjourney.com/video/2ffab06e-c621-478c-b8cd-30371af9d06c/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/604f5ff2-e505-47b3-b8f4-ee058b6fe947?index=0",
+      "videoName": "604f5ff2-e505-47b3-b8f4-ee058b6fe947",
+      "videoUrl": "https://cdn.midjourney.com/video/604f5ff2-e505-47b3-b8f4-ee058b6fe947/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/36db25c8-5eff-4c7d-b1ef-5a09451be50e?index=0",
+      "videoName": "36db25c8-5eff-4c7d-b1ef-5a09451be50e",
+      "videoUrl": "https://cdn.midjourney.com/video/36db25c8-5eff-4c7d-b1ef-5a09451be50e/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/25370a80-a233-4f27-a9ee-0a61e404b9e6?index=0",
+      "videoName": "25370a80-a233-4f27-a9ee-0a61e404b9e6",
+      "videoUrl": "https://cdn.midjourney.com/video/25370a80-a233-4f27-a9ee-0a61e404b9e6/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/4b5b27a2-715d-412f-90ea-fb40680de72d?index=0",
+      "videoName": "4b5b27a2-715d-412f-90ea-fb40680de72d",
+      "videoUrl": "https://cdn.midjourney.com/video/4b5b27a2-715d-412f-90ea-fb40680de72d/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/1b48b8fc-43de-483a-84ac-cff77a2e8120?index=0",
+      "videoName": "1b48b8fc-43de-483a-84ac-cff77a2e8120",
+      "videoUrl": "https://cdn.midjourney.com/video/1b48b8fc-43de-483a-84ac-cff77a2e8120/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/63f5fcf8-925b-46be-baa7-4b85feee6adb?index=0",
+      "videoName": "63f5fcf8-925b-46be-baa7-4b85feee6adb",
+      "videoUrl": "https://cdn.midjourney.com/video/63f5fcf8-925b-46be-baa7-4b85feee6adb/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/07fe16e1-db86-4830-871a-33656db4facb?index=0",
+      "videoName": "07fe16e1-db86-4830-871a-33656db4facb",
+      "videoUrl": "https://cdn.midjourney.com/video/07fe16e1-db86-4830-871a-33656db4facb/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/5d44330d-5855-4cda-aa25-d6caa3cb0a37?index=0",
+      "videoName": "5d44330d-5855-4cda-aa25-d6caa3cb0a37",
+      "videoUrl": "https://cdn.midjourney.com/video/5d44330d-5855-4cda-aa25-d6caa3cb0a37/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/b84cabc9-928f-460d-ad2d-14352f9d6a63?index=0",
+      "videoName": "b84cabc9-928f-460d-ad2d-14352f9d6a63",
+      "videoUrl": "https://cdn.midjourney.com/video/b84cabc9-928f-460d-ad2d-14352f9d6a63/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/bb2b595a-09f3-4eab-9586-0bef7c894d0b?index=0",
+      "videoName": "bb2b595a-09f3-4eab-9586-0bef7c894d0b",
+      "videoUrl": "https://cdn.midjourney.com/video/bb2b595a-09f3-4eab-9586-0bef7c894d0b/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/650031dc-59a0-415c-9a25-35fb8d7d6f89?index=0",
+      "videoName": "650031dc-59a0-415c-9a25-35fb8d7d6f89",
+      "videoUrl": "https://cdn.midjourney.com/video/650031dc-59a0-415c-9a25-35fb8d7d6f89/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/73164011-fff9-40dd-9a51-37f32508ebb0?index=0",
+      "videoName": "73164011-fff9-40dd-9a51-37f32508ebb0",
+      "videoUrl": "https://cdn.midjourney.com/video/73164011-fff9-40dd-9a51-37f32508ebb0/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/0747446c-a84d-4ce0-a4c2-5c631400503c?index=0",
+      "videoName": "0747446c-a84d-4ce0-a4c2-5c631400503c",
+      "videoUrl": "https://cdn.midjourney.com/video/0747446c-a84d-4ce0-a4c2-5c631400503c/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/e6f93d3b-07d7-4739-a103-e1247ffb0c78?index=0",
+      "videoName": "e6f93d3b-07d7-4739-a103-e1247ffb0c78",
+      "videoUrl": "https://cdn.midjourney.com/video/e6f93d3b-07d7-4739-a103-e1247ffb0c78/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/703d3bd5-cabf-4e26-b08e-36ba276a7b96?index=0",
+      "videoName": "703d3bd5-cabf-4e26-b08e-36ba276a7b96",
+      "videoUrl": "https://cdn.midjourney.com/video/703d3bd5-cabf-4e26-b08e-36ba276a7b96/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/6624c592-46d8-4764-b84c-f47a03be2877?index=0",
+      "videoName": "6624c592-46d8-4764-b84c-f47a03be2877",
+      "videoUrl": "https://cdn.midjourney.com/video/6624c592-46d8-4764-b84c-f47a03be2877/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/509acd55-9434-4c3e-a775-40ada5c5d4e5?index=0",
+      "videoName": "509acd55-9434-4c3e-a775-40ada5c5d4e5",
+      "videoUrl": "https://cdn.midjourney.com/video/509acd55-9434-4c3e-a775-40ada5c5d4e5/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/692dd83b-99e4-4b3d-acab-d86efb454309?index=0",
+      "videoName": "692dd83b-99e4-4b3d-acab-d86efb454309",
+      "videoUrl": "https://cdn.midjourney.com/video/692dd83b-99e4-4b3d-acab-d86efb454309/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/5a4b1017-9144-4d94-9677-0596a58db13c?index=0",
+      "videoName": "5a4b1017-9144-4d94-9677-0596a58db13c",
+      "videoUrl": "https://cdn.midjourney.com/video/5a4b1017-9144-4d94-9677-0596a58db13c/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/676761ac-e8c6-4b93-935d-10fbb414c4d4?index=0",
+      "videoName": "676761ac-e8c6-4b93-935d-10fbb414c4d4",
+      "videoUrl": "https://cdn.midjourney.com/video/676761ac-e8c6-4b93-935d-10fbb414c4d4/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/9439437a-e03d-4618-a70e-9094a036e718?index=0",
+      "videoName": "9439437a-e03d-4618-a70e-9094a036e718",
+      "videoUrl": "https://cdn.midjourney.com/video/9439437a-e03d-4618-a70e-9094a036e718/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/f3959e21-94d9-40dc-a1a2-15a0091c900b?index=0",
+      "videoName": "f3959e21-94d9-40dc-a1a2-15a0091c900b",
+      "videoUrl": "https://cdn.midjourney.com/video/f3959e21-94d9-40dc-a1a2-15a0091c900b/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/e2308540-bb7d-471a-90ff-a8690f02d5c1?index=0",
+      "videoName": "e2308540-bb7d-471a-90ff-a8690f02d5c1",
+      "videoUrl": "https://cdn.midjourney.com/video/e2308540-bb7d-471a-90ff-a8690f02d5c1/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/cc88c832-13e3-4755-ba51-85b6126bc7f7?index=0",
+      "videoName": "cc88c832-13e3-4755-ba51-85b6126bc7f7",
+      "videoUrl": "https://cdn.midjourney.com/video/cc88c832-13e3-4755-ba51-85b6126bc7f7/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/08d056fa-f322-4f72-9062-d7d2244e92a3?index=0",
+      "videoName": "08d056fa-f322-4f72-9062-d7d2244e92a3",
+      "videoUrl": "https://cdn.midjourney.com/video/08d056fa-f322-4f72-9062-d7d2244e92a3/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/95ebdbee-d18b-40f6-b71a-bc167d5c3268?index=0",
+      "videoName": "95ebdbee-d18b-40f6-b71a-bc167d5c3268",
+      "videoUrl": "https://cdn.midjourney.com/video/95ebdbee-d18b-40f6-b71a-bc167d5c3268/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/e683000c-eb63-4916-84b6-4ef1410cc43d?index=0",
+      "videoName": "e683000c-eb63-4916-84b6-4ef1410cc43d",
+      "videoUrl": "https://cdn.midjourney.com/video/e683000c-eb63-4916-84b6-4ef1410cc43d/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/12424ccf-b40d-4b08-8a0f-b7ee4948f1e9?index=0",
+      "videoName": "12424ccf-b40d-4b08-8a0f-b7ee4948f1e9",
+      "videoUrl": "https://cdn.midjourney.com/video/12424ccf-b40d-4b08-8a0f-b7ee4948f1e9/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/ec2cc026-8cf7-45ff-8d97-3fb0592c1bb8?index=0",
+      "videoName": "ec2cc026-8cf7-45ff-8d97-3fb0592c1bb8",
+      "videoUrl": "https://cdn.midjourney.com/video/ec2cc026-8cf7-45ff-8d97-3fb0592c1bb8/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/f55607dc-3bfc-46a8-8e15-2202e9cd6384?index=0",
+      "videoName": "f55607dc-3bfc-46a8-8e15-2202e9cd6384",
+      "videoUrl": "https://cdn.midjourney.com/video/f55607dc-3bfc-46a8-8e15-2202e9cd6384/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/b3d03d3a-5a44-4f5b-b29c-033cf71acd20?index=0",
+      "videoName": "b3d03d3a-5a44-4f5b-b29c-033cf71acd20",
+      "videoUrl": "https://cdn.midjourney.com/video/b3d03d3a-5a44-4f5b-b29c-033cf71acd20/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/f9e79cc8-7c8e-47dd-9189-0e7477bc4ede?index=0",
+      "videoName": "f9e79cc8-7c8e-47dd-9189-0e7477bc4ede",
+      "videoUrl": "https://cdn.midjourney.com/video/f9e79cc8-7c8e-47dd-9189-0e7477bc4ede/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/a463f31b-fe69-4bed-8bec-8d9ade43236e?index=0",
+      "videoName": "a463f31b-fe69-4bed-8bec-8d9ade43236e",
+      "videoUrl": "https://cdn.midjourney.com/video/a463f31b-fe69-4bed-8bec-8d9ade43236e/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/5ef86c68-868b-45a7-b0df-2c42c70e830b?index=0",
+      "videoName": "5ef86c68-868b-45a7-b0df-2c42c70e830b",
+      "videoUrl": "https://cdn.midjourney.com/video/5ef86c68-868b-45a7-b0df-2c42c70e830b/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/fd4ecfb7-97d9-48d6-ac11-9fc7e3b8e09c?index=0",
+      "videoName": "fd4ecfb7-97d9-48d6-ac11-9fc7e3b8e09c",
+      "videoUrl": "https://cdn.midjourney.com/video/fd4ecfb7-97d9-48d6-ac11-9fc7e3b8e09c/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/68c2a81a-ab41-4b8c-987e-de576ef812ac?index=0",
+      "videoName": "68c2a81a-ab41-4b8c-987e-de576ef812ac",
+      "videoUrl": "https://cdn.midjourney.com/video/68c2a81a-ab41-4b8c-987e-de576ef812ac/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/314e1022-0302-4c46-9507-731b79eec970?index=0",
+      "videoName": "314e1022-0302-4c46-9507-731b79eec970",
+      "videoUrl": "https://cdn.midjourney.com/video/314e1022-0302-4c46-9507-731b79eec970/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/7b923936-623d-4cd7-81fa-78618e468417?index=0",
+      "videoName": "7b923936-623d-4cd7-81fa-78618e468417",
+      "videoUrl": "https://cdn.midjourney.com/video/7b923936-623d-4cd7-81fa-78618e468417/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/6b7558de-425c-4bbb-98e0-cfb580e49fe5?index=0",
+      "videoName": "6b7558de-425c-4bbb-98e0-cfb580e49fe5",
+      "videoUrl": "https://cdn.midjourney.com/video/6b7558de-425c-4bbb-98e0-cfb580e49fe5/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/cd722a46-5e75-43f2-9ff3-e539725085b2?index=0",
+      "videoName": "cd722a46-5e75-43f2-9ff3-e539725085b2",
+      "videoUrl": "https://cdn.midjourney.com/video/cd722a46-5e75-43f2-9ff3-e539725085b2/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/b07a1d39-a51f-4e4c-ab84-c61b1ae5ab37?index=0",
+      "videoName": "b07a1d39-a51f-4e4c-ab84-c61b1ae5ab37",
+      "videoUrl": "https://cdn.midjourney.com/video/b07a1d39-a51f-4e4c-ab84-c61b1ae5ab37/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/7b3d0dab-f03d-4d33-83fd-dec8aede6882?index=0",
+      "videoName": "7b3d0dab-f03d-4d33-83fd-dec8aede6882",
+      "videoUrl": "https://cdn.midjourney.com/video/7b3d0dab-f03d-4d33-83fd-dec8aede6882/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/60c7e948-64d9-4b82-9f31-b51e91648a6f?index=0",
+      "videoName": "60c7e948-64d9-4b82-9f31-b51e91648a6f",
+      "videoUrl": "https://cdn.midjourney.com/video/60c7e948-64d9-4b82-9f31-b51e91648a6f/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/35810537-d1ce-4ce2-b904-194dced26185?index=0",
+      "videoName": "35810537-d1ce-4ce2-b904-194dced26185",
+      "videoUrl": "https://cdn.midjourney.com/video/35810537-d1ce-4ce2-b904-194dced26185/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/8d0efac1-791d-433c-99ec-a042994b9004?index=0",
+      "videoName": "8d0efac1-791d-433c-99ec-a042994b9004",
+      "videoUrl": "https://cdn.midjourney.com/video/8d0efac1-791d-433c-99ec-a042994b9004/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/b1f8b3ce-79fa-4d2b-b07e-6833e88b333f?index=0",
+      "videoName": "b1f8b3ce-79fa-4d2b-b07e-6833e88b333f",
+      "videoUrl": "https://cdn.midjourney.com/video/b1f8b3ce-79fa-4d2b-b07e-6833e88b333f/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/1b10e517-aaa2-4986-95df-64246aaa461a?index=0",
+      "videoName": "1b10e517-aaa2-4986-95df-64246aaa461a",
+      "videoUrl": "https://cdn.midjourney.com/video/1b10e517-aaa2-4986-95df-64246aaa461a/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/1faf0077-4d4c-4446-9834-4e3672fb3dc6?index=0",
+      "videoName": "1faf0077-4d4c-4446-9834-4e3672fb3dc6",
+      "videoUrl": "https://cdn.midjourney.com/video/1faf0077-4d4c-4446-9834-4e3672fb3dc6/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/f848f5f5-0fa7-4f69-8c3d-9b824f0cee8e?index=0",
+      "videoName": "f848f5f5-0fa7-4f69-8c3d-9b824f0cee8e",
+      "videoUrl": "https://cdn.midjourney.com/video/f848f5f5-0fa7-4f69-8c3d-9b824f0cee8e/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/0577b9e2-91e9-499d-ab7d-b82eda14192b?index=0",
+      "videoName": "0577b9e2-91e9-499d-ab7d-b82eda14192b",
+      "videoUrl": "https://cdn.midjourney.com/video/0577b9e2-91e9-499d-ab7d-b82eda14192b/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/14ef6e13-3ba6-4b3c-b2ca-e0b490261929?index=0",
+      "videoName": "14ef6e13-3ba6-4b3c-b2ca-e0b490261929",
+      "videoUrl": "https://cdn.midjourney.com/video/14ef6e13-3ba6-4b3c-b2ca-e0b490261929/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/6b208ae5-86cb-43cb-a900-ed9ee9c1b284?index=0",
+      "videoName": "6b208ae5-86cb-43cb-a900-ed9ee9c1b284",
+      "videoUrl": "https://cdn.midjourney.com/video/6b208ae5-86cb-43cb-a900-ed9ee9c1b284/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/f4073d3c-2378-47b9-81d9-8dca7a6054d3?index=0",
+      "videoName": "f4073d3c-2378-47b9-81d9-8dca7a6054d3",
+      "videoUrl": "https://cdn.midjourney.com/video/f4073d3c-2378-47b9-81d9-8dca7a6054d3/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/7c1700ae-fc19-46d1-b64d-4d2111e22a0f?index=0",
+      "videoName": "7c1700ae-fc19-46d1-b64d-4d2111e22a0f",
+      "videoUrl": "https://cdn.midjourney.com/video/7c1700ae-fc19-46d1-b64d-4d2111e22a0f/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/84a97196-a859-4c7c-a58b-e6dc87cb1c10?index=0",
+      "videoName": "84a97196-a859-4c7c-a58b-e6dc87cb1c10",
+      "videoUrl": "https://cdn.midjourney.com/video/84a97196-a859-4c7c-a58b-e6dc87cb1c10/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/f7c2a5b8-00fb-4422-8df6-b10893ea3030?index=0",
+      "videoName": "f7c2a5b8-00fb-4422-8df6-b10893ea3030",
+      "videoUrl": "https://cdn.midjourney.com/video/f7c2a5b8-00fb-4422-8df6-b10893ea3030/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/72f8f71d-1512-4987-afcd-aeb6d791324e?index=0",
+      "videoName": "72f8f71d-1512-4987-afcd-aeb6d791324e",
+      "videoUrl": "https://cdn.midjourney.com/video/72f8f71d-1512-4987-afcd-aeb6d791324e/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/85805a24-bb28-458b-9c6f-6253bcf9c6b4?index=0",
+      "videoName": "85805a24-bb28-458b-9c6f-6253bcf9c6b4",
+      "videoUrl": "https://cdn.midjourney.com/video/85805a24-bb28-458b-9c6f-6253bcf9c6b4/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/b3dc8e57-df3a-4363-8806-a5998ad55af8?index=0",
+      "videoName": "b3dc8e57-df3a-4363-8806-a5998ad55af8",
+      "videoUrl": "https://cdn.midjourney.com/video/b3dc8e57-df3a-4363-8806-a5998ad55af8/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/c450988e-425e-44cc-8321-5edb866d5bf1?index=0",
+      "videoName": "c450988e-425e-44cc-8321-5edb866d5bf1",
+      "videoUrl": "https://cdn.midjourney.com/video/c450988e-425e-44cc-8321-5edb866d5bf1/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/16d55307-ccd4-430b-b479-5e8fd0e6c1c5?index=0",
+      "videoName": "16d55307-ccd4-430b-b479-5e8fd0e6c1c5",
+      "videoUrl": "https://cdn.midjourney.com/video/16d55307-ccd4-430b-b479-5e8fd0e6c1c5/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/6d0a43ec-3d74-44fb-a5dc-2d59d369e971?index=0",
+      "videoName": "6d0a43ec-3d74-44fb-a5dc-2d59d369e971",
+      "videoUrl": "https://cdn.midjourney.com/video/6d0a43ec-3d74-44fb-a5dc-2d59d369e971/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/2e52f7d0-402b-44e5-85a2-9ae63cfe3f5f?index=0",
+      "videoName": "2e52f7d0-402b-44e5-85a2-9ae63cfe3f5f",
+      "videoUrl": "https://cdn.midjourney.com/video/2e52f7d0-402b-44e5-85a2-9ae63cfe3f5f/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/f81421b2-7680-4161-8d68-6e3e0f801285?index=0",
+      "videoName": "f81421b2-7680-4161-8d68-6e3e0f801285",
+      "videoUrl": "https://cdn.midjourney.com/video/f81421b2-7680-4161-8d68-6e3e0f801285/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/c3297284-55b6-47f1-bfb0-102c0d5e831c?index=0",
+      "videoName": "c3297284-55b6-47f1-bfb0-102c0d5e831c",
+      "videoUrl": "https://cdn.midjourney.com/video/c3297284-55b6-47f1-bfb0-102c0d5e831c/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/d773e4e0-5e98-49c7-b00b-0430beeeab6d?index=0",
+      "videoName": "d773e4e0-5e98-49c7-b00b-0430beeeab6d",
+      "videoUrl": "https://cdn.midjourney.com/video/d773e4e0-5e98-49c7-b00b-0430beeeab6d/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/c7984186-92f5-4885-ab58-4221028e1b72?index=0",
+      "videoName": "c7984186-92f5-4885-ab58-4221028e1b72",
+      "videoUrl": "https://cdn.midjourney.com/video/c7984186-92f5-4885-ab58-4221028e1b72/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/92d50651-4a1f-456f-99fe-7538101d83bd?index=0",
+      "videoName": "92d50651-4a1f-456f-99fe-7538101d83bd",
+      "videoUrl": "https://cdn.midjourney.com/video/92d50651-4a1f-456f-99fe-7538101d83bd/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/f864a9dd-93fb-41c7-bafe-279bef8e6703?index=0",
+      "videoName": "f864a9dd-93fb-41c7-bafe-279bef8e6703",
+      "videoUrl": "https://cdn.midjourney.com/video/f864a9dd-93fb-41c7-bafe-279bef8e6703/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/b348441f-c150-4cd7-bcd8-36f25edcbfc0?index=0",
+      "videoName": "b348441f-c150-4cd7-bcd8-36f25edcbfc0",
+      "videoUrl": "https://cdn.midjourney.com/video/b348441f-c150-4cd7-bcd8-36f25edcbfc0/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/95076aed-ed1f-4630-ab44-e8125bf67036?index=0",
+      "videoName": "95076aed-ed1f-4630-ab44-e8125bf67036",
+      "videoUrl": "https://cdn.midjourney.com/video/95076aed-ed1f-4630-ab44-e8125bf67036/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/5e8fa5be-16c7-4e68-807e-6fb1df8ef3f2?index=0",
+      "videoName": "5e8fa5be-16c7-4e68-807e-6fb1df8ef3f2",
+      "videoUrl": "https://cdn.midjourney.com/video/5e8fa5be-16c7-4e68-807e-6fb1df8ef3f2/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/691eed1b-dddd-455b-af41-c8cd3bb4fc40?index=0",
+      "videoName": "691eed1b-dddd-455b-af41-c8cd3bb4fc40",
+      "videoUrl": "https://cdn.midjourney.com/video/691eed1b-dddd-455b-af41-c8cd3bb4fc40/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/680e3e1d-b3e6-4c03-8e59-3237d51922b1?index=0",
+      "videoName": "680e3e1d-b3e6-4c03-8e59-3237d51922b1",
+      "videoUrl": "https://cdn.midjourney.com/video/680e3e1d-b3e6-4c03-8e59-3237d51922b1/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/05e64fd3-d54f-4780-af13-37b8c4d0e308?index=0",
+      "videoName": "05e64fd3-d54f-4780-af13-37b8c4d0e308",
+      "videoUrl": "https://cdn.midjourney.com/video/05e64fd3-d54f-4780-af13-37b8c4d0e308/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/00c701ba-30ac-4eef-a4d8-36ac61d4a790?index=0",
+      "videoName": "00c701ba-30ac-4eef-a4d8-36ac61d4a790",
+      "videoUrl": "https://cdn.midjourney.com/video/00c701ba-30ac-4eef-a4d8-36ac61d4a790/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/495f9439-2a61-4aee-afd9-4fd6a32baed5?index=0",
+      "videoName": "495f9439-2a61-4aee-afd9-4fd6a32baed5",
+      "videoUrl": "https://cdn.midjourney.com/video/495f9439-2a61-4aee-afd9-4fd6a32baed5/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/2c7b22cf-9e20-458f-b777-2a0a43b0c248?index=0",
+      "videoName": "2c7b22cf-9e20-458f-b777-2a0a43b0c248",
+      "videoUrl": "https://cdn.midjourney.com/video/2c7b22cf-9e20-458f-b777-2a0a43b0c248/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/fff335c7-6a70-4f40-b95f-6e49da1a4df1?index=0",
+      "videoName": "fff335c7-6a70-4f40-b95f-6e49da1a4df1",
+      "videoUrl": "https://cdn.midjourney.com/video/fff335c7-6a70-4f40-b95f-6e49da1a4df1/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/1ae6cda5-14a5-45b0-8586-bf84f1645913?index=0",
+      "videoName": "1ae6cda5-14a5-45b0-8586-bf84f1645913",
+      "videoUrl": "https://cdn.midjourney.com/video/1ae6cda5-14a5-45b0-8586-bf84f1645913/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/bc1dd0d5-4278-4782-9776-cc631d91dc1b?index=0",
+      "videoName": "bc1dd0d5-4278-4782-9776-cc631d91dc1b",
+      "videoUrl": "https://cdn.midjourney.com/video/bc1dd0d5-4278-4782-9776-cc631d91dc1b/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/1454be9a-5b8b-43ca-b931-f011f7bbc416?index=0",
+      "videoName": "1454be9a-5b8b-43ca-b931-f011f7bbc416",
+      "videoUrl": "https://cdn.midjourney.com/video/1454be9a-5b8b-43ca-b931-f011f7bbc416/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/e36064ea-be36-4723-a0fb-fb07c5cc2c62?index=0",
+      "videoName": "e36064ea-be36-4723-a0fb-fb07c5cc2c62",
+      "videoUrl": "https://cdn.midjourney.com/video/e36064ea-be36-4723-a0fb-fb07c5cc2c62/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/8dbf1c76-cca5-4dca-9aeb-467c10decc58?index=0",
+      "videoName": "8dbf1c76-cca5-4dca-9aeb-467c10decc58",
+      "videoUrl": "https://cdn.midjourney.com/video/8dbf1c76-cca5-4dca-9aeb-467c10decc58/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/536c0d73-07fb-47b5-8597-922dfba416d1?index=0",
+      "videoName": "536c0d73-07fb-47b5-8597-922dfba416d1",
+      "videoUrl": "https://cdn.midjourney.com/video/536c0d73-07fb-47b5-8597-922dfba416d1/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/57683467-de50-47d6-abc0-c0ee96d4a3c3?index=0",
+      "videoName": "57683467-de50-47d6-abc0-c0ee96d4a3c3",
+      "videoUrl": "https://cdn.midjourney.com/video/57683467-de50-47d6-abc0-c0ee96d4a3c3/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/b16df075-a083-4db4-8b6e-abbc6893fa15?index=0",
+      "videoName": "b16df075-a083-4db4-8b6e-abbc6893fa15",
+      "videoUrl": "https://cdn.midjourney.com/video/b16df075-a083-4db4-8b6e-abbc6893fa15/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/7741ed4f-b493-4384-9b65-698fffd0504a?index=0",
+      "videoName": "7741ed4f-b493-4384-9b65-698fffd0504a",
+      "videoUrl": "https://cdn.midjourney.com/video/7741ed4f-b493-4384-9b65-698fffd0504a/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/ecdf0f9e-3ce2-4b83-8332-230bbec36140?index=0",
+      "videoName": "ecdf0f9e-3ce2-4b83-8332-230bbec36140",
+      "videoUrl": "https://cdn.midjourney.com/video/ecdf0f9e-3ce2-4b83-8332-230bbec36140/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/2f59698f-9235-4b79-a109-403e35135bf9?index=0",
+      "videoName": "2f59698f-9235-4b79-a109-403e35135bf9",
+      "videoUrl": "https://cdn.midjourney.com/video/2f59698f-9235-4b79-a109-403e35135bf9/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/3be72907-1eaa-4c74-af8b-dbabfac88dec?index=0",
+      "videoName": "3be72907-1eaa-4c74-af8b-dbabfac88dec",
+      "videoUrl": "https://cdn.midjourney.com/video/3be72907-1eaa-4c74-af8b-dbabfac88dec/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/08eb4c6f-10fd-43a4-8447-089f33007d42?index=0",
+      "videoName": "08eb4c6f-10fd-43a4-8447-089f33007d42",
+      "videoUrl": "https://cdn.midjourney.com/video/08eb4c6f-10fd-43a4-8447-089f33007d42/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/16f327c8-4994-4153-844f-8f60455338ee?index=0",
+      "videoName": "16f327c8-4994-4153-844f-8f60455338ee",
+      "videoUrl": "https://cdn.midjourney.com/video/16f327c8-4994-4153-844f-8f60455338ee/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/6677e47f-dfc3-4a16-990d-9b12916f9ac1?index=0",
+      "videoName": "6677e47f-dfc3-4a16-990d-9b12916f9ac1",
+      "videoUrl": "https://cdn.midjourney.com/video/6677e47f-dfc3-4a16-990d-9b12916f9ac1/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/a9f38f2b-5cbb-46cf-a2d0-0768488c68aa?index=0",
+      "videoName": "a9f38f2b-5cbb-46cf-a2d0-0768488c68aa",
+      "videoUrl": "https://cdn.midjourney.com/video/a9f38f2b-5cbb-46cf-a2d0-0768488c68aa/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/039d4043-6b05-448f-8fcd-203ba391bb99?index=0",
+      "videoName": "039d4043-6b05-448f-8fcd-203ba391bb99",
+      "videoUrl": "https://cdn.midjourney.com/video/039d4043-6b05-448f-8fcd-203ba391bb99/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/958375b2-302d-45d1-a485-1927c6fe049a?index=0",
+      "videoName": "958375b2-302d-45d1-a485-1927c6fe049a",
+      "videoUrl": "https://cdn.midjourney.com/video/958375b2-302d-45d1-a485-1927c6fe049a/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/0b9d2993-b6ae-4c62-bd8b-80f0d3af8a61?index=0",
+      "videoName": "0b9d2993-b6ae-4c62-bd8b-80f0d3af8a61",
+      "videoUrl": "https://cdn.midjourney.com/video/0b9d2993-b6ae-4c62-bd8b-80f0d3af8a61/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/c82d7890-5ad2-46d1-ab9b-d1ef57da7d77?index=0",
+      "videoName": "c82d7890-5ad2-46d1-ab9b-d1ef57da7d77",
+      "videoUrl": "https://cdn.midjourney.com/video/c82d7890-5ad2-46d1-ab9b-d1ef57da7d77/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/cec0075d-9653-4cc3-a8df-bf8aafccbdbb?index=0",
+      "videoName": "cec0075d-9653-4cc3-a8df-bf8aafccbdbb",
+      "videoUrl": "https://cdn.midjourney.com/video/cec0075d-9653-4cc3-a8df-bf8aafccbdbb/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/72a412b4-cd3e-4959-ac40-84c7c87b0230?index=0",
+      "videoName": "72a412b4-cd3e-4959-ac40-84c7c87b0230",
+      "videoUrl": "https://cdn.midjourney.com/video/72a412b4-cd3e-4959-ac40-84c7c87b0230/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/6710235d-7080-4a4f-868b-5d3e1d7c5fdd?index=0",
+      "videoName": "6710235d-7080-4a4f-868b-5d3e1d7c5fdd",
+      "videoUrl": "https://cdn.midjourney.com/video/6710235d-7080-4a4f-868b-5d3e1d7c5fdd/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/915ff997-8dea-4542-8b3b-99667202c1b8?index=0",
+      "videoName": "915ff997-8dea-4542-8b3b-99667202c1b8",
+      "videoUrl": "https://cdn.midjourney.com/video/915ff997-8dea-4542-8b3b-99667202c1b8/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/59a712b5-6e90-4ee9-b987-da2da1c47b96?index=0",
+      "videoName": "59a712b5-6e90-4ee9-b987-da2da1c47b96",
+      "videoUrl": "https://cdn.midjourney.com/video/59a712b5-6e90-4ee9-b987-da2da1c47b96/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/5299aa4f-5e92-48dd-9143-dbcc7a6f1907?index=0",
+      "videoName": "5299aa4f-5e92-48dd-9143-dbcc7a6f1907",
+      "videoUrl": "https://cdn.midjourney.com/video/5299aa4f-5e92-48dd-9143-dbcc7a6f1907/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/d0af7342-e34b-432e-be4c-6bbf9f63d53c?index=0",
+      "videoName": "d0af7342-e34b-432e-be4c-6bbf9f63d53c",
+      "videoUrl": "https://cdn.midjourney.com/video/d0af7342-e34b-432e-be4c-6bbf9f63d53c/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/23b1dc98-2f36-4c03-8eb0-62e801befccd?index=0",
+      "videoName": "23b1dc98-2f36-4c03-8eb0-62e801befccd",
+      "videoUrl": "https://cdn.midjourney.com/video/23b1dc98-2f36-4c03-8eb0-62e801befccd/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/5b6baaf7-a308-4cea-90cc-c96d4e2f7a72?index=0",
+      "videoName": "5b6baaf7-a308-4cea-90cc-c96d4e2f7a72",
+      "videoUrl": "https://cdn.midjourney.com/video/5b6baaf7-a308-4cea-90cc-c96d4e2f7a72/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/0740c73b-f66f-411b-8634-a9c8844491c0?index=0",
+      "videoName": "0740c73b-f66f-411b-8634-a9c8844491c0",
+      "videoUrl": "https://cdn.midjourney.com/video/0740c73b-f66f-411b-8634-a9c8844491c0/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/f7c35423-198c-4009-aca4-c22ccf59426c?index=0",
+      "videoName": "f7c35423-198c-4009-aca4-c22ccf59426c",
+      "videoUrl": "https://cdn.midjourney.com/video/f7c35423-198c-4009-aca4-c22ccf59426c/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/3aa913e1-145d-400c-8a35-344e799ff4dd?index=0",
+      "videoName": "3aa913e1-145d-400c-8a35-344e799ff4dd",
+      "videoUrl": "https://cdn.midjourney.com/video/3aa913e1-145d-400c-8a35-344e799ff4dd/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/14b0791d-2b8d-49db-8ec5-996012e41e53?index=0",
+      "videoName": "14b0791d-2b8d-49db-8ec5-996012e41e53",
+      "videoUrl": "https://cdn.midjourney.com/video/14b0791d-2b8d-49db-8ec5-996012e41e53/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/62d94e25-517c-4d64-8f30-778e51c79a7c?index=0",
+      "videoName": "62d94e25-517c-4d64-8f30-778e51c79a7c",
+      "videoUrl": "https://cdn.midjourney.com/video/62d94e25-517c-4d64-8f30-778e51c79a7c/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/6358aebd-7f7c-4cdc-bf1c-186f190c3144?index=0",
+      "videoName": "6358aebd-7f7c-4cdc-bf1c-186f190c3144",
+      "videoUrl": "https://cdn.midjourney.com/video/6358aebd-7f7c-4cdc-bf1c-186f190c3144/0.mp4"
+    },
+    {
+      "downloaded": false,
+      "pageUrl": "https://www.midjourney.com/jobs/efca35fe-7f65-4c4d-a905-fed5ff58d4b1?index=0",
+      "videoName": "efca35fe-7f65-4c4d-a905-fed5ff58d4b1",
+      "videoUrl": "https://cdn.midjourney.com/video/efca35fe-7f65-4c4d-a905-fed5ff58d4b1/0.mp4"
     }
   ]
 }
