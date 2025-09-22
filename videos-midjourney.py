@@ -54,18 +54,40 @@ def save_videos(videos):
 def save_new_videos(new_videos):
     """Append new unique videos (by videoName) to videos.json."""
     existing_videos = load_videos()
-    existing_names = {v["videoName"] for v in existing_videos}
+    existing_names = {v.get("videoName") for v in existing_videos if v.get("videoName")}
 
-    # Deduplicate within new payload
+    print(f"📋 Processing {len(new_videos)} incoming videos...")
+    print(f"📊 Currently have {len(existing_videos)} videos in database")
+
+    # Deduplicate within new payload first
     unique_new = {}
+    duplicates_in_payload = 0
+    
     for v in new_videos:
-        if v["videoName"] not in unique_new:
-            unique_new[v["videoName"]] = v
+        video_name = v.get("videoName")
+        if not video_name:
+            print(f"⚠️  Skipping video with missing videoName: {v}")
+            continue
+            
+        if video_name not in unique_new:
+            unique_new[video_name] = v
+        else:
+            duplicates_in_payload += 1
 
-    # Filter out ones that already exist
-    filtered_new = [
-        v for name, v in unique_new.items() if name not in existing_names
-    ]
+    print(f"🔍 Found {duplicates_in_payload} duplicates within incoming payload")
+
+    # Filter out ones that already exist in database
+    filtered_new = []
+    already_exists = 0
+    
+    for name, v in unique_new.items():
+        if name not in existing_names:
+            filtered_new.append(v)
+        else:
+            already_exists += 1
+
+    print(f"📝 {already_exists} videos already exist in database")
+    print(f"✅ Adding {len(filtered_new)} new unique videos")
 
     # Append and save
     updated_videos = existing_videos + filtered_new
@@ -158,6 +180,48 @@ def download_with_curl(url, filepath):
         print(f"❌ Curl fallback failed: {e}")
         return False
 
+def scan_and_fix_corrupted_files():
+    """Scan download folder for files 8KB or smaller and redownload them."""
+    if not os.path.exists(DOWNLOADS_DIR):
+        print("📁 Download directory doesn't exist yet")
+        return []
+    
+    corrupted_files = []
+    fixed_files = []
+    
+    print("🔍 Scanning for corrupted files (8KB or smaller)...")
+    
+    for filename in os.listdir(DOWNLOADS_DIR):
+        if filename.endswith('.mp4'):
+            filepath = os.path.join(DOWNLOADS_DIR, filename)
+            file_size = os.path.getsize(filepath)
+            
+            if file_size <= 8192:  # 8KB or smaller
+                file_size_kb = file_size / 1024
+                print(f"🚨 Found corrupted file: {filename} ({file_size_kb:.1f}KB)")
+                corrupted_files.append((filename, file_size_kb))
+                
+                # Extract video name (remove .mp4 extension)
+                video_name = filename[:-4]
+                
+                # Construct download URL
+                download_url = f"https://cdn.midjourney.com/video/{video_name}/0.mp4"
+                
+                print(f"🔄 Redownloading {filename} from {download_url}")
+                
+                if download_video_with_retry(download_url, filepath):
+                    new_size = os.path.getsize(filepath)
+                    new_size_kb = new_size / 1024
+                    print(f"✅ Fixed {filename} - New size: {new_size_kb:.1f}KB")
+                    fixed_files.append((filename, file_size_kb, new_size_kb))
+                else:
+                    print(f"❌ Failed to fix {filename}")
+                
+                # Wait 15 seconds between redownloads
+                time.sleep(15)
+    
+    return corrupted_files, fixed_files
+
 def download_pending_videos():
     """Download all videos where downloaded == False."""
     videos = load_videos()
@@ -166,27 +230,82 @@ def download_pending_videos():
     if not os.path.exists(DOWNLOADS_DIR):
         os.makedirs(DOWNLOADS_DIR)
 
-    for i, video in enumerate(videos):
+    # Count pending downloads BEFORE starting
+    pending_downloads = [v for v in videos if not v.get("downloaded", False)]
+    total_videos = len(videos)
+    completed_videos = total_videos - len(pending_downloads)
+    
+    print("\n" + "="*60)
+    print("📊 DOWNLOAD STATUS SUMMARY")
+    print("="*60)
+    print(f"📁 Total videos in database: {total_videos}")
+    print(f"✅ Already downloaded: {completed_videos}")
+    print(f"⬇️  Pending downloads: {len(pending_downloads)}")
+    print("="*60)
+    
+    if len(pending_downloads) == 0:
+        print("🎉 All videos already downloaded!")
+    else:
+        print(f"🚀 Starting download process for {len(pending_downloads)} videos...")
+    print()
+
+    download_counter = 0
+    for video in videos:
         if not video.get("downloaded", False):
+            download_counter += 1
             url = video["videoUrl"]
             filename = f"{video['videoName']}.mp4"
             filepath = os.path.join(DOWNLOADS_DIR, filename)
 
-            print(f"⬇️  Downloading {filename} from {url}")
+            print(f"⬇️  [{download_counter}/{len(pending_downloads)}] Downloading {filename}")
+            print(f"🔗 From: {url}")
             
             if download_video_with_retry(url, filepath):
                 video["downloaded"] = True
                 changed = True
+                print(f"✅ Completed {filename}")
             else:
                 print(f"💀 Failed to download {filename} after all retries")
             
             # Wait 15 seconds between downloads
-            if i < len(videos) - 1:  # Don't wait after the last video
-                print(f"⏳ Waiting 25 seconds before next download...")
-                time.sleep(25)
+            remaining = len(pending_downloads) - download_counter
+            if remaining > 0:
+                print(f"⏳ Waiting 15 seconds... ({remaining} files remaining)")
+                time.sleep(15)
+                print()
 
     if changed:
         save_videos(videos)
+    
+    # After downloading new videos, scan for and fix corrupted files
+    print("\n" + "="*50)
+    print("🔧 CHECKING FOR CORRUPTED FILES")
+    print("="*50)
+    
+    corrupted_files, fixed_files = scan_and_fix_corrupted_files()
+    
+    # Print summary
+    print("\n" + "="*50)
+    print("📊 CORRUPTION SCAN SUMMARY")
+    print("="*50)
+    
+    if corrupted_files:
+        print(f"🚨 Found {len(corrupted_files)} corrupted files:")
+        for filename, size_kb in corrupted_files:
+            print(f"   • {filename} ({size_kb:.1f}KB)")
+    else:
+        print("✅ No corrupted files found!")
+    
+    if fixed_files:
+        print(f"\n🔧 Successfully fixed {len(fixed_files)} files:")
+        for filename, old_size_kb, new_size_kb in fixed_files:
+            print(f"   • {filename}: {old_size_kb:.1f}KB → {new_size_kb:.1f}KB")
+    
+    failed_fixes = len(corrupted_files) - len(fixed_files)
+    if failed_fixes > 0:
+        print(f"\n❌ Failed to fix {failed_fixes} files")
+    
+    print("="*50)
 
 @app.route("/dailyvids", methods=["POST"])
 def dailyvids():
