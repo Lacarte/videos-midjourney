@@ -8,15 +8,70 @@ import time
 import random
 from utils import resource_path
 import logging
-import tempfile
+import threading
+from threading import Lock
 
 """
-Key behavior change:
-- We ONLY verify the file immediately after each download.
-- We DO NOT scan/compare the JSON against files in "download-midjourney" anymore.
-- When a download passes verification, we mark that single item as downloaded in videos.json.
-- No global reconciliation/verification pass.
+Key behavior changes:
+- Respond immediately to POST requests before processing downloads
+- Process downloads in background thread
+- Prevent concurrent download operations
+- Return busy status if download is in progress
 """
+
+# ---------------------------
+# Download Status Manager
+# ---------------------------
+
+class DownloadManager:
+    def __init__(self):
+        self.is_downloading = False
+        self.pending_count = 0
+        self.completed_count = 0
+        self.total_count = 0
+        self.lock = Lock()
+        self.download_thread = None
+        self.start_time = None
+    
+    def start_download(self, pending_count):
+        with self.lock:
+            if self.is_downloading:
+                return False
+            self.is_downloading = True
+            self.pending_count = pending_count
+            self.total_count = pending_count
+            self.completed_count = 0
+            self.start_time = datetime.now()
+            return True
+    
+    def update_progress(self):
+        with self.lock:
+            self.completed_count += 1
+            self.pending_count -= 1
+    
+    def finish_download(self):
+        with self.lock:
+            self.is_downloading = False
+            self.pending_count = 0
+            self.download_thread = None
+            self.start_time = None
+    
+    def get_status(self):
+        with self.lock:
+            if not self.is_downloading:
+                return {"status": "idle", "message": "No downloads in progress"}
+            
+            elapsed = (datetime.now() - self.start_time).seconds if self.start_time else 0
+            return {
+                "status": "downloading",
+                "message": f"Busy downloading videos",
+                "total": self.total_count,
+                "completed": self.completed_count,
+                "pending": self.pending_count,
+                "elapsed_seconds": elapsed
+            }
+
+download_manager = DownloadManager()
 
 # ---------------------------
 # Logging
@@ -298,52 +353,67 @@ def mark_as_downloaded(videos, video_name):
     return False
 
 
-def download_pending_videos():
-    videos = load_videos()
-    downloads_path = create_directory(DOWNLOADS_DIR)
+def download_pending_videos_background():
+    """Background function to download videos"""
+    try:
+        videos = load_videos()
+        downloads_path = create_directory(DOWNLOADS_DIR)
 
-    pending = [v for v in videos if not v.get('downloaded', False)]
+        pending = [v for v in videos if not v.get('downloaded', False)]
 
-    logging.info("\n" + "="*60)
-    logging.info("SUMMARY: DOWNLOAD STATUS SUMMARY")
-    logging.info("="*60)
-    logging.info(f"TOTAL: {len(videos)} | COMPLETED: {len(videos) - len(pending)} | PENDING: {len(pending)}")
-    logging.info("="*60)
+        logging.info("\n" + "="*60)
+        logging.info("BACKGROUND: DOWNLOAD STATUS SUMMARY")
+        logging.info("="*60)
+        logging.info(f"TOTAL: {len(videos)} | COMPLETED: {len(videos) - len(pending)} | PENDING: {len(pending)}")
+        logging.info("="*60)
 
-    if not pending:
-        logging.info("DONE: All videos already marked as downloaded. Nothing to do.")
-        return
+        if not pending:
+            logging.info("DONE: All videos already marked as downloaded. Nothing to do.")
+            download_manager.finish_download()
+            return
 
-    for idx, video in enumerate(pending, start=1):
-        url = video['videoUrl']
-        name = video['videoName']
-        filename = f"{name}.mp4"
-        final_path = os.path.join(downloads_path, filename)
+        # Start download tracking
+        if not download_manager.start_download(len(pending)):
+            logging.info("BLOCKED: Another download is already in progress")
+            return
 
-        logging.info(f"DOWNLOADING: [{idx}/{len(pending)}] {filename}")
-        logging.info(f"URL: {url}")
+        for idx, video in enumerate(pending, start=1):
+            url = video['videoUrl']
+            name = video['videoName']
+            filename = f"{name}.mp4"
+            final_path = os.path.join(downloads_path, filename)
 
-        ok = download_video_with_retry(url, final_path, prefer_curl=True)
-        if ok:
-            # Immediate verification already performed in download helpers.
-            # Mark only THIS item as downloaded and persist JSON immediately.
-            if mark_as_downloaded(videos, name):
-                save_videos(videos)
-                logging.info(f"COMPLETED: Marked as downloaded in DB -> {name}")
+            logging.info(f"DOWNLOADING: [{idx}/{len(pending)}] {filename}")
+            logging.info(f"URL: {url}")
+
+            ok = download_video_with_retry(url, final_path, prefer_curl=True)
+            if ok:
+                # Reload videos to ensure we have latest state
+                videos = load_videos()
+                if mark_as_downloaded(videos, name):
+                    save_videos(videos)
+                    logging.info(f"COMPLETED: Marked as downloaded in DB -> {name}")
+                    download_manager.update_progress()
+                else:
+                    logging.info(f"WARNING: Could not find {name} in videos.json to mark as downloaded")
             else:
-                logging.info(f"WARNING: Could not find {name} in videos.json to mark as downloaded")
-        else:
-            logging.info(f"FAILED: Could not download {filename}")
+                logging.info(f"FAILED: Could not download {filename}")
 
-        # pacing
-        remaining = len(pending) - idx
-        if remaining > 0:
-            logging.info(f"WAITING: 15 seconds... ({remaining} remaining)")
-            time.sleep(15)
+            # pacing
+            remaining = len(pending) - idx
+            if remaining > 0:
+                logging.info(f"WAITING: 15 seconds... ({remaining} remaining)")
+                time.sleep(15)
+
+    except Exception as e:
+        logging.error(f"BACKGROUND_ERROR: {e}")
+    finally:
+        download_manager.finish_download()
+        logging.info("BACKGROUND: Download process completed")
 
 
 # ---------------------------
-# Flask endpoint
+# Flask endpoints
 # ---------------------------
 
 @app.route("/dailyvids", methods=["POST"])
@@ -351,19 +421,57 @@ def dailyvids():
     data = request.json or {}
     logging.info(f"REQUEST: Incoming request data: {data}")
 
+    # Check if a download is already in progress
+    status = download_manager.get_status()
+    if status["status"] == "downloading":
+        return {
+            "message": f"Busy downloading {status['pending']} qty of videos",
+            "status": "busy",
+            "download_progress": status
+        }, 202  # 202 Accepted - request accepted but processing not complete
+
     videos = data.get("videos", [])
     added_count = save_new_videos(videos)
 
     if added_count > 0:
-        logging.info("STARTING: Downloading pending videos right away...")
-        download_pending_videos()
+        logging.info("STARTING: Launching background download thread...")
+        # Start download in background thread
+        thread = threading.Thread(target=download_pending_videos_background, daemon=True)
+        thread.start()
+        download_manager.download_thread = thread
+        
+        return {
+            "message": f"Saved {added_count} new videos. Download started in background.",
+            "status": "started",
+            "new_videos": added_count
+        }, 200
     else:
-        logging.info("NO_DOWNLOAD: No new videos to download. (No global verification performed.)")
+        logging.info("NO_DOWNLOAD: No new videos to download.")
+        return {
+            "message": "No new videos to add",
+            "status": "no_new_videos"
+        }, 200
 
-    return {"message": f"Saved {added_count} new videos"}, 200
+
+@app.route("/status", methods=["GET"])
+def get_status():
+    """Optional endpoint to check download status"""
+    status = download_manager.get_status()
+    videos = load_videos()
+    total_videos = len(videos)
+    downloaded = len([v for v in videos if v.get('downloaded', False)])
+    
+    return {
+        "download_status": status,
+        "database_stats": {
+            "total_videos": total_videos,
+            "downloaded": downloaded,
+            "pending": total_videos - downloaded
+        }
+    }, 200
 
 
 if __name__ == "__main__":
     logging.info("FLASK: Starting Flask application...")
     logging.info("SERVER: http://localhost:5000")
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=5000, threaded=True)  # threaded=True to handle concurrent requests
