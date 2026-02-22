@@ -29,42 +29,49 @@ class DownloadManager:
         self.pending_count = 0
         self.completed_count = 0
         self.total_count = 0
+        self.batch_number = 0
         self.lock = Lock()
         self.download_thread = None
         self.start_time = None
-    
-    def start_download(self, pending_count):
+
+    def start_batch(self, pending_count):
+        with self.lock:
+            self.batch_number += 1
+            self.pending_count = pending_count
+            self.total_count = pending_count
+            self.completed_count = 0
+
+    def start_download(self):
         with self.lock:
             if self.is_downloading:
                 return False
             self.is_downloading = True
-            self.pending_count = pending_count
-            self.total_count = pending_count
-            self.completed_count = 0
+            self.batch_number = 0
             self.start_time = datetime.now()
             return True
-    
+
     def update_progress(self):
         with self.lock:
             self.completed_count += 1
             self.pending_count -= 1
-    
+
     def finish_download(self):
         with self.lock:
             self.is_downloading = False
             self.pending_count = 0
             self.download_thread = None
             self.start_time = None
-    
+
     def get_status(self):
         with self.lock:
             if not self.is_downloading:
                 return {"status": "idle", "message": "No downloads in progress"}
-            
+
             elapsed = (datetime.now() - self.start_time).seconds if self.start_time else 0
             return {
                 "status": "downloading",
-                "message": f"Busy downloading videos",
+                "message": f"Busy downloading videos (batch {self.batch_number})",
+                "batch": self.batch_number,
                 "total": self.total_count,
                 "completed": self.completed_count,
                 "pending": self.pending_count,
@@ -133,7 +140,7 @@ setup_logging()
 
 app = Flask(__name__)
 VIDEOS_FILE = "videos.json"
-DOWNLOADS_DIR = "download-midjourney"
+DOWNLOADS_DIR = "midjourney-download"
 
 
 # ---------------------------
@@ -353,63 +360,119 @@ def mark_as_downloaded(videos, video_name):
     return False
 
 
+def format_size(size_bytes):
+    """Format bytes into a human-readable string."""
+    if size_bytes < 1024:
+        return f"{size_bytes} B"
+    elif size_bytes < 1024 ** 2:
+        return f"{size_bytes / 1024:.2f} KB"
+    elif size_bytes < 1024 ** 3:
+        return f"{size_bytes / (1024 ** 2):.2f} MB"
+    else:
+        return f"{size_bytes / (1024 ** 3):.2f} GB"
+
+
 def download_pending_videos_background():
-    """Background function to download videos"""
+    """Background function that loops through batches until no pending videos remain."""
+    total_success = 0
+    total_fail = 0
+    total_bytes = 0
+
+    if not download_manager.start_download():
+        logging.info("BLOCKED: Another download is already in progress")
+        return
+
     try:
-        videos = load_videos()
         downloads_path = create_directory(DOWNLOADS_DIR)
 
-        pending = [v for v in videos if not v.get('downloaded', False)]
+        while True:
+            # Reload DB each batch to pick up newly queued videos
+            videos = load_videos()
+            pending = [v for v in videos if not v.get('downloaded', False)]
 
-        logging.info("\n" + "="*60)
-        logging.info("BACKGROUND: DOWNLOAD STATUS SUMMARY")
-        logging.info("="*60)
-        logging.info(f"TOTAL: {len(videos)} | COMPLETED: {len(videos) - len(pending)} | PENDING: {len(pending)}")
-        logging.info("="*60)
+            if not pending:
+                logging.info("DONE: No more pending videos. All batches complete.")
+                break
 
-        if not pending:
-            logging.info("DONE: All videos already marked as downloaded. Nothing to do.")
-            download_manager.finish_download()
-            return
+            # Start a new batch
+            download_manager.start_batch(len(pending))
 
-        # Start download tracking
-        if not download_manager.start_download(len(pending)):
-            logging.info("BLOCKED: Another download is already in progress")
-            return
+            logging.info("\n" + "="*60)
+            logging.info(f"BATCH {download_manager.batch_number}: STARTING ({len(pending)} videos)")
+            logging.info("="*60)
 
-        for idx, video in enumerate(pending, start=1):
-            url = video['videoUrl']
-            name = video['videoName']
-            filename = f"{name}.mp4"
-            final_path = os.path.join(downloads_path, filename)
+            batch_success = 0
+            batch_fail = 0
+            batch_bytes = 0
 
-            logging.info(f"DOWNLOADING: [{idx}/{len(pending)}] {filename}")
-            logging.info(f"URL: {url}")
+            for idx, video in enumerate(pending, start=1):
+                url = video['videoUrl']
+                name = video['videoName']
+                filename = f"{name}.mp4"
+                final_path = os.path.join(downloads_path, filename)
 
-            ok = download_video_with_retry(url, final_path, prefer_curl=True)
-            if ok:
-                # Reload videos to ensure we have latest state
-                videos = load_videos()
-                if mark_as_downloaded(videos, name):
-                    save_videos(videos)
-                    logging.info(f"COMPLETED: Marked as downloaded in DB -> {name}")
-                    download_manager.update_progress()
+                logging.info(f"DOWNLOADING: [Batch {download_manager.batch_number}] [{idx}/{len(pending)}] {filename}")
+                logging.info(f"URL: {url}")
+
+                ok = download_video_with_retry(url, final_path, prefer_curl=True)
+                if ok:
+                    # Track file size
+                    try:
+                        file_size = os.path.getsize(final_path)
+                        batch_bytes += file_size
+                        logging.info(f"FILE_SIZE: {filename} -> {format_size(file_size)}")
+                    except OSError:
+                        pass
+
+                    # Reload videos to ensure we have latest state
+                    videos = load_videos()
+                    if mark_as_downloaded(videos, name):
+                        save_videos(videos)
+                        logging.info(f"COMPLETED: Marked as downloaded in DB -> {name}")
+                        download_manager.update_progress()
+                    else:
+                        logging.info(f"WARNING: Could not find {name} in videos.json to mark as downloaded")
+                    batch_success += 1
                 else:
-                    logging.info(f"WARNING: Could not find {name} in videos.json to mark as downloaded")
-            else:
-                logging.info(f"FAILED: Could not download {filename}")
+                    logging.info(f"FAILED: Could not download {filename}")
+                    batch_fail += 1
 
-            # pacing
-            remaining = len(pending) - idx
-            if remaining > 0:
-                logging.info(f"WAITING: 15 seconds... ({remaining} remaining)")
-                time.sleep(15)
+                # pacing
+                remaining = len(pending) - idx
+                if remaining > 0:
+                    logging.info(f"WAITING: 15 seconds... ({remaining} remaining)")
+                    time.sleep(15)
+
+            # Batch summary
+            logging.info("\n" + "-"*40)
+            logging.info(f"BATCH {download_manager.batch_number} DONE: {batch_success} ok / {batch_fail} failed / {format_size(batch_bytes)}")
+            logging.info("-"*40)
+
+            total_success += batch_success
+            total_fail += batch_fail
+            total_bytes += batch_bytes
+
+            # If nothing succeeded this batch and there were failures, stop to avoid infinite loop
+            if batch_success == 0 and batch_fail > 0:
+                logging.info("STOPPING: Entire batch failed, not retrying to avoid loop.")
+                break
 
     except Exception as e:
         logging.error(f"BACKGROUND_ERROR: {e}")
     finally:
+        elapsed = (datetime.now() - download_manager.start_time).total_seconds() if download_manager.start_time else 0
+        batches_done = download_manager.batch_number
         download_manager.finish_download()
-        logging.info("BACKGROUND: Download process completed")
+
+        logging.info("\n" + "="*60)
+        logging.info("FINAL DOWNLOAD REPORT")
+        logging.info("="*60)
+        logging.info(f"  Batches    : {batches_done}")
+        logging.info(f"  Successful : {total_success}")
+        logging.info(f"  Failed     : {total_fail}")
+        logging.info(f"  Total size : {format_size(total_bytes)}")
+        logging.info(f"  Duration   : {int(elapsed // 60)}m {int(elapsed % 60)}s")
+        logging.info("="*60)
 
 
 # ---------------------------
@@ -421,52 +484,63 @@ def dailyvids():
     data = request.json or {}
     logging.info(f"REQUEST: Incoming request data: {data}")
 
+    # Always save incoming videos first, even if busy
+    videos = data.get("videos", [])
+    added_count = save_new_videos(videos) if videos else 0
+
     # Check if a download is already in progress
     status = download_manager.get_status()
     if status["status"] == "downloading":
+        msg = f"Busy downloading {status['pending']} qty of videos"
+        if added_count > 0:
+            msg += f". Queued {added_count} new videos for next batch."
         return {
-            "message": f"Busy downloading {status['pending']} qty of videos",
+            "message": msg,
             "status": "busy",
+            "new_videos_queued": added_count,
             "download_progress": status
         }, 202  # 202 Accepted - request accepted but processing not complete
 
-    videos = data.get("videos", [])
-    added_count = save_new_videos(videos)
+    # Not busy — check for any pending videos (new + previously queued/failed)
+    all_videos = load_videos()
+    pending_count = len([v for v in all_videos if not v.get('downloaded', False)])
 
-    if added_count > 0:
-        logging.info("STARTING: Launching background download thread...")
-        # Start download in background thread
+    if pending_count > 0:
+        logging.info(f"STARTING: Launching background download thread for {pending_count} pending videos...")
         thread = threading.Thread(target=download_pending_videos_background, daemon=True)
         thread.start()
         download_manager.download_thread = thread
-        
+
         return {
-            "message": f"Saved {added_count} new videos. Download started in background.",
+            "message": f"Saved {added_count} new videos. Download started for {pending_count} pending videos.",
             "status": "started",
-            "new_videos": added_count
+            "new_videos": added_count,
+            "pending_videos": pending_count
         }, 200
     else:
-        logging.info("NO_DOWNLOAD: No new videos to download.")
+        logging.info("NO_DOWNLOAD: No pending videos to download.")
         return {
-            "message": "No new videos to add",
+            "message": "No new videos to add. All videos already downloaded.",
             "status": "no_new_videos"
         }, 200
 
 
 @app.route("/status", methods=["GET"])
 def get_status():
-    """Optional endpoint to check download status"""
+    """Endpoint to check download status and batch progress"""
     status = download_manager.get_status()
     videos = load_videos()
     total_videos = len(videos)
     downloaded = len([v for v in videos if v.get('downloaded', False)])
-    
+    pending = total_videos - downloaded
+
     return {
         "download_status": status,
         "database_stats": {
             "total_videos": total_videos,
             "downloaded": downloaded,
-            "pending": total_videos - downloaded
+            "pending": pending,
+            "queued_for_next_batch": pending - status.get("pending", 0) if status["status"] == "downloading" else 0
         }
     }, 200
 
