@@ -81,34 +81,96 @@ class DownloadManager:
 download_manager = DownloadManager()
 
 # ---------------------------
-# Logging
+# Logging & Console Colors
 # ---------------------------
+
+# ANSI color codes
+class C:
+    RESET   = "\033[0m"
+    BOLD    = "\033[1m"
+    DIM     = "\033[2m"
+    RED     = "\033[91m"
+    GREEN   = "\033[92m"
+    YELLOW  = "\033[93m"
+    BLUE    = "\033[94m"
+    MAGENTA = "\033[95m"
+    CYAN    = "\033[96m"
+    WHITE   = "\033[97m"
+    BG_RED  = "\033[41m"
+    BG_GREEN = "\033[42m"
+    BG_BLUE  = "\033[44m"
+    BG_CYAN  = "\033[46m"
+
+# Enable ANSI on Windows
+os.system('')
+
 
 def setup_logging():
     logs_path = create_directory("logs")
 
+    # --- File handler: plain text, machine-readable ---
     file_handler = logging.FileHandler(
         os.path.join(logs_path, f"log-{datetime.now().strftime('%Y-%m-%d')}.log"),
         mode="w",
         encoding="utf-8",
     )
+    file_formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    file_handler.setFormatter(file_formatter)
 
-    class SafeConsoleHandler(logging.StreamHandler):
+    # --- Console handler: colored, human-friendly ---
+    class ColoredConsoleHandler(logging.StreamHandler):
+        # Keyword-to-color mapping (order matters, first match wins)
+        COLORS = [
+            ("SUCCESS",     C.GREEN),
+            ("COMPLETED",   C.GREEN),
+            ("DONE",        C.GREEN),
+            ("SAVED",       C.GREEN),
+            ("FILE_SIZE",   C.GREEN),
+            ("FAILED",      C.RED),
+            ("ERROR",       C.RED),
+            ("STOPPING",    C.RED),
+            ("WARNING",     C.YELLOW),
+            ("FALLBACK",    C.YELLOW),
+            ("BLOCKED",     C.YELLOW),
+            ("NO_NEW",      C.YELLOW),
+            ("DOWNLOADING", C.CYAN),
+            ("STARTING",    C.CYAN),
+            ("BATCH",       C.CYAN),
+            ("WAITING",     C.DIM),
+            ("CURL",        C.DIM),
+            ("REQUESTS",    C.DIM),
+            ("URL",         C.DIM),
+        ]
+
         def emit(self, record):
             try:
-                msg = self.format(record)
-                safe_msg = msg.encode('ascii', 'replace').decode('ascii')
-                stream = self.stream
-                stream.write(safe_msg + self.terminator)
+                msg = record.getMessage()
+                ts = datetime.now().strftime("%H:%M:%S")
+
+                # Detect color from message content
+                color = C.WHITE
+                for keyword, c in self.COLORS:
+                    if keyword in msg:
+                        color = c
+                        break
+
+                # Level indicator
+                lvl = record.levelno
+                if lvl >= logging.ERROR:
+                    badge = f"{C.BG_RED}{C.WHITE} ERR {C.RESET}"
+                elif lvl >= logging.WARNING:
+                    badge = f"{C.BG_RED}{C.WHITE} WRN {C.RESET}"
+                else:
+                    badge = f"{C.DIM}{ts}{C.RESET}"
+
+                line = f" {badge} {color}{msg}{C.RESET}"
+                safe_line = line.encode('ascii', 'replace').decode('ascii')
+                self.stream.write(safe_line + self.terminator)
                 self.flush()
             except Exception:
                 self.handleError(record)
 
-    console_handler = SafeConsoleHandler()
-
-    formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
-    file_handler.setFormatter(formatter)
-    console_handler.setFormatter(formatter)
+    console_handler = ColoredConsoleHandler()
 
     root_logger = logging.getLogger()
     root_logger.setLevel(logging.INFO)
@@ -117,7 +179,7 @@ def setup_logging():
     root_logger.addHandler(file_handler)
     root_logger.addHandler(console_handler)
 
-    logging.info("LOG: Logging system initialized successfully")
+    logging.info("Logging system initialized")
 
 
 # ---------------------------
@@ -372,6 +434,27 @@ def format_size(size_bytes):
         return f"{size_bytes / (1024 ** 3):.2f} GB"
 
 
+def log_box(lines, style="single", color=C.WHITE):
+    """Log a box with unicode box-drawing characters."""
+    if style == "double":
+        tl, tr, bl, br, h, v = "╔", "╗", "╚", "╝", "═", "║"
+    else:
+        tl, tr, bl, br, h, v = "┌", "┐", "└", "┘", "─", "│"
+    width = max(len(line) for line in lines) + 2
+    logging.info(f"{color}{tl}{h * width}{tr}{C.RESET}")
+    for line in lines:
+        logging.info(f"{color}{v}{C.RESET} {color}{line.ljust(width - 1)}{C.RESET}{color}{v}{C.RESET}")
+    logging.info(f"{color}{bl}{h * width}{br}{C.RESET}")
+
+
+def log_progress_bar(current, total, width=20):
+    """Return a text progress bar like [####------] 40%"""
+    filled = int(width * current / total) if total > 0 else 0
+    bar = "#" * filled + "-" * (width - filled)
+    pct = int(100 * current / total) if total > 0 else 0
+    return f"[{bar}] {pct}%"
+
+
 def download_pending_videos_background():
     """Background function that loops through batches until no pending videos remain."""
     total_success = 0
@@ -391,15 +474,17 @@ def download_pending_videos_background():
             pending = [v for v in videos if not v.get('downloaded', False)]
 
             if not pending:
-                logging.info("DONE: No more pending videos. All batches complete.")
+                logging.info(f"{C.GREEN}{C.BOLD}DONE: No more pending videos. All batches complete.{C.RESET}")
                 break
 
             # Start a new batch
             download_manager.start_batch(len(pending))
+            batch_num = download_manager.batch_number
 
-            logging.info("\n" + "="*60)
-            logging.info(f"BATCH {download_manager.batch_number}: STARTING ({len(pending)} videos)")
-            logging.info("="*60)
+            logging.info("")
+            log_box([
+                f"{C.BOLD}BATCH {batch_num}{C.RESET}{C.CYAN}  ·  {len(pending)} videos queued",
+            ], style="single", color=C.CYAN)
 
             batch_success = 0
             batch_fail = 0
@@ -411,16 +496,18 @@ def download_pending_videos_background():
                 filename = f"{name}.mp4"
                 final_path = os.path.join(downloads_path, filename)
 
-                logging.info(f"DOWNLOADING: [Batch {download_manager.batch_number}] [{idx}/{len(pending)}] {filename}")
+                progress = log_progress_bar(idx - 1, len(pending))
+                logging.info(f"DOWNLOADING: {C.BOLD}[{idx}/{len(pending)}]{C.RESET}{C.CYAN} {filename}{C.RESET}  {C.DIM}{progress}{C.RESET}")
                 logging.info(f"URL: {url}")
 
                 ok = download_video_with_retry(url, final_path, prefer_curl=True)
                 if ok:
                     # Track file size
+                    file_size_str = ""
                     try:
                         file_size = os.path.getsize(final_path)
                         batch_bytes += file_size
-                        logging.info(f"FILE_SIZE: {filename} -> {format_size(file_size)}")
+                        file_size_str = format_size(file_size)
                     except OSError:
                         pass
 
@@ -428,25 +515,28 @@ def download_pending_videos_background():
                     videos = load_videos()
                     if mark_as_downloaded(videos, name):
                         save_videos(videos)
-                        logging.info(f"COMPLETED: Marked as downloaded in DB -> {name}")
                         download_manager.update_progress()
                     else:
-                        logging.info(f"WARNING: Could not find {name} in videos.json to mark as downloaded")
+                        logging.info(f"WARNING: Could not find {name} in videos.json")
                     batch_success += 1
+                    logging.info(f"  {C.GREEN}{C.BOLD}COMPLETED{C.RESET} {C.GREEN}{filename}  ·  {file_size_str}{C.RESET}")
                 else:
-                    logging.info(f"FAILED: Could not download {filename}")
                     batch_fail += 1
+                    logging.info(f"  {C.RED}{C.BOLD}FAILED{C.RESET} {C.RED}{filename}{C.RESET}")
 
                 # pacing
                 remaining = len(pending) - idx
                 if remaining > 0:
-                    logging.info(f"WAITING: 15 seconds... ({remaining} remaining)")
+                    logging.info(f"WAITING: {C.DIM}15s pause  ·  {remaining} remaining{C.RESET}")
                     time.sleep(15)
 
             # Batch summary
-            logging.info("\n" + "-"*40)
-            logging.info(f"BATCH {download_manager.batch_number} DONE: {batch_success} ok / {batch_fail} failed / {format_size(batch_bytes)}")
-            logging.info("-"*40)
+            logging.info("")
+            ok_str = f"{C.GREEN}{batch_success} ok{C.RESET}"
+            fail_str = f"{C.RED}{batch_fail} failed{C.RESET}" if batch_fail else f"{C.DIM}0 failed{C.RESET}"
+            log_box([
+                f"BATCH {batch_num} DONE  ·  {ok_str}{C.CYAN}  ·  {fail_str}{C.CYAN}  ·  {format_size(batch_bytes)}",
+            ], style="single", color=C.CYAN)
 
             total_success += batch_success
             total_fail += batch_fail
@@ -454,7 +544,7 @@ def download_pending_videos_background():
 
             # If nothing succeeded this batch and there were failures, stop to avoid infinite loop
             if batch_success == 0 and batch_fail > 0:
-                logging.info("STOPPING: Entire batch failed, not retrying to avoid loop.")
+                logging.info(f"{C.RED}STOPPING: Entire batch failed, not retrying to avoid loop.{C.RESET}")
                 break
 
     except Exception as e:
@@ -464,15 +554,21 @@ def download_pending_videos_background():
         batches_done = download_manager.batch_number
         download_manager.finish_download()
 
-        logging.info("\n" + "="*60)
-        logging.info("FINAL DOWNLOAD REPORT")
-        logging.info("="*60)
-        logging.info(f"  Batches    : {batches_done}")
-        logging.info(f"  Successful : {total_success}")
-        logging.info(f"  Failed     : {total_fail}")
-        logging.info(f"  Total size : {format_size(total_bytes)}")
-        logging.info(f"  Duration   : {int(elapsed // 60)}m {int(elapsed % 60)}s")
-        logging.info("="*60)
+        mins = int(elapsed // 60)
+        secs = int(elapsed % 60)
+        ok_color = C.GREEN if total_success > 0 else C.DIM
+        fail_color = C.RED if total_fail > 0 else C.DIM
+
+        logging.info("")
+        log_box([
+            f"{C.BOLD}FINAL DOWNLOAD REPORT{C.RESET}{C.MAGENTA}",
+            f"",
+            f"  Batches    : {batches_done}",
+            f"  Successful : {ok_color}{total_success}{C.RESET}{C.MAGENTA}",
+            f"  Failed     : {fail_color}{total_fail}{C.RESET}{C.MAGENTA}",
+            f"  Total size : {C.BOLD}{format_size(total_bytes)}{C.RESET}{C.MAGENTA}",
+            f"  Duration   : {mins}m {secs}s",
+        ], style="double", color=C.MAGENTA)
 
 
 # ---------------------------
@@ -482,7 +578,7 @@ def download_pending_videos_background():
 @app.route("/dailyvids", methods=["POST"])
 def dailyvids():
     data = request.json or {}
-    logging.info(f"REQUEST: Incoming request data: {data}")
+    logging.info(f"{C.BLUE}{C.BOLD}REQUEST{C.RESET} Incoming  ·  {len(data.get('videos', []))} videos in payload")
 
     # Always save incoming videos first, even if busy
     videos = data.get("videos", [])
@@ -506,7 +602,7 @@ def dailyvids():
     pending_count = len([v for v in all_videos if not v.get('downloaded', False)])
 
     if pending_count > 0:
-        logging.info(f"STARTING: Launching background download thread for {pending_count} pending videos...")
+        logging.info(f"STARTING: {C.CYAN}Launching download thread  ·  {pending_count} pending{C.RESET}")
         thread = threading.Thread(target=download_pending_videos_background, daemon=True)
         thread.start()
         download_manager.download_thread = thread
@@ -546,6 +642,12 @@ def get_status():
 
 
 if __name__ == "__main__":
-    logging.info("FLASK: Starting Flask application...")
-    logging.info("SERVER: http://localhost:5000")
+    logging.info("")
+    log_box([
+        f"{C.BOLD}MIDJOURNEY VIDEO DOWNLOADER{C.RESET}{C.BLUE}",
+        f"Server : http://localhost:5000",
+        f"POST   : /dailyvids",
+        f"GET    : /status",
+    ], style="double", color=C.BLUE)
+    logging.info("")
     app.run(debug=True, port=5000, threaded=True)  # threaded=True to handle concurrent requests
